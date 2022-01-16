@@ -1,0 +1,30 @@
+2021-12-22T21:26:36+00:00 CRITICAL Uncaught Error: Cannot use string offset as an array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:478
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): remove_checkout_fields('')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/woocommerce/checkout/form-checkout.php(44): do_action('woocommerce_che...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/s in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 478
+
+2021-12-22T22:16:25+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:482
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): remove_checkout_fields_billing('')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/woocommerce/checkout/form-checkout.php(44): do_action('woocommerce_che...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/sh in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 482
+
+2021-12-22T22:18:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_checkout_fields() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:482
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): remove_checkout_fields_billing('')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/woocommerce/checkout/form-checkout.php(44): do_action('woocommerce_che...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(293): wc_get_template('checkout/form-c...', Array)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wo in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 482
+

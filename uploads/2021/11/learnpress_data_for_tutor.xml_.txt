@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<channel>
+				<title>Panache Dance Fitness</title>
+				<link>https://www.panachedancefitness.com</link>
+				<description>Step Into The Spotlight</description>
+				<pubDate>Sun, 21 Nov 2021 00:43:12 +0000</pubDate>
+				<language>en-GB</language>
+				<tlmt_version>1.0.4</tlmt_version>
+				
+</channel>

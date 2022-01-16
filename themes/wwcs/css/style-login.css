@@ -1,0 +1,23 @@
+
+
+body.login div#login form#loginform , #resetpassform {
+   width: 100%;
+    font-family: 'PT Sans', sans-serif!important;
+    	margin-top: 4em;
+		margin-bottom: 5em;
+	border: 2px solid #4f86d7;
+	padding: 2em;
+	border-radius: 5px;
+}
+#login {
+    
+     width: 30%}
+     p#nav {
+         display: none;
+     }
+     #backtoblog a ,  p.message , #login_error, label{
+       font-family: 'PT Sans', sans-serif!important;
+     }
+     p.message {
+         
+     }

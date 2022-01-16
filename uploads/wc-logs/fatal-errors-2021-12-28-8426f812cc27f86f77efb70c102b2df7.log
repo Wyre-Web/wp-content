@@ -1,0 +1,160 @@
+2021-12-28T01:41:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_author_meta() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:241
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 241
+
+2021-12-28T02:13:22+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:256
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php( in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 256
+
+2021-12-28T02:17:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:237
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 237
+
+2021-12-28T02:17:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:237
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 237
+
+2021-12-28T03:39:26+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:237
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 237
+
+2021-12-28T03:39:28+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:237
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 237
+
+2021-12-28T03:47:31+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:239
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_ in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 239
+
+2021-12-28T03:47:34+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:239
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_ in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 239
+
+2021-12-28T03:54:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_user_meta() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:237
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_g in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 237
+
+2021-12-28T03:54:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_user_meta() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:237
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_g in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 237
+
+2021-12-28T12:17:26+00:00 CRITICAL Uncaught Error: Call to undefined function _esc_htmml() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:249
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_temp in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 249
+
+2021-12-28T12:17:28+00:00 CRITICAL Uncaught Error: Call to undefined function _esc_htmml() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:249
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_temp in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 249
+
+2021-12-28T12:56:26+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:246
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 246
+
+2021-12-28T12:58:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:247
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 247
+
+2021-12-28T13:44:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_tags() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:244
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 244
+
+2021-12-28T13:44:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_tags() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:244
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('woocommerce_tem...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'woocommerce_tem...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(111): wc_get_t in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 244
+

@@ -1,0 +1,81 @@
+2021-12-12T00:24:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_editable_roles() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/user-role-editor/includes/classes/user-other-roles.php:359
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(305): URE_User_Other_Roles->update(1)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-includes/user.php(2118): do_action('profile_update', 1, Object(WP_User), Array)
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/user.php(2239): wp_insert_user(Array)
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-edit-profile.php(41): wp_update_user(Array)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#7 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/user-role-editor/includes/classes/user-other-roles.php on line 359
+
+2021-12-12T00:43:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 0 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 44 and exactly 2 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php:1274
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(44): get_the_terms()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php on line 1274
+
+2021-12-12T00:47:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 45 and exactly 2 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php:1274
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(45): get_the_terms(Array)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php on line 1274
+
+2021-12-12T00:47:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 45 and exactly 2 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php:1274
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(45): get_the_terms(Array)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php on line 1274
+
+2021-12-12T00:52:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 45 and exactly 2 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php:1274
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(45): get_the_terms(Array)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php on line 1274
+
+2021-12-12T00:53:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 62 and exactly 2 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php:1274
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(62): get_the_terms(7435)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-includes/category-template.php on line 1274
+
+2021-12-12T02:45:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_list_pluck(), 1 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 63 and at least 2 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/functions.php:5021
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(63): wp_list_pluck(NULL)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-includes/functions.php on line 5021
+
+2021-12-12T02:53:34+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:51
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 51
+
+2021-12-12T02:57:45+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:51
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 51
+

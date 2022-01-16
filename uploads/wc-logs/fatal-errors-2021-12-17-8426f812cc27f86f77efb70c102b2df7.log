@@ -1,0 +1,72 @@
+2021-12-17T00:23:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_post_meta(), 0 passed in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 201 and at least 1 expected in /home/nicedesi/panache.nic-edesign.com/wp-includes/post.php:2302
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php(201): get_post_meta()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/shortcodes.php(356): wws_get_fields_product_rep('', '', 'fields_product_...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fields...', 'do_shortcode_ta...', '[fields_product...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-repertoire.php(60): do_shortcode('[fields_product...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#6 /home/nicedesi/pa in /home/nicedesi/panache.nic-edesign.com/wp-includes/post.php on line 2302
+
+2021-12-17T00:29:19+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:202
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/shortcodes.php(356): wws_get_fields_product_rep('', '', 'fields_product_...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(fields...', 'do_shortcode_ta...', '[fields_product...')
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-repertoire.php(60): do_shortcode('[fields_product...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#6 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#7 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 202
+
+2021-12-17T17:08:19+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on bool in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:177
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): wws_get_fields_product('wws_get_fields_...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(70): do_action('woocommerce_aft...', 'wws_get_fields_...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(96): wc_get_ in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 177
+
+2021-12-17T17:09:05+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php:87
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): get_star_rating('wws_assign_prod...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(79): do_action('woocommerce_aft...', 'wws_assign_prod...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(96):  in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php on line 87
+
+2021-12-17T17:09:42+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php:87
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): get_star_rating('wws_assign_prod...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(79): do_action('woocommerce_aft...', 'wws_assign_prod...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(96):  in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php on line 87
+
+2021-12-17T17:12:59+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php:87
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): get_star_rating('wws_assign_prod...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(79): do_action('woocommerce_aft...', 'wws_assign_prod...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(96):  in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php on line 87
+
+2021-12-17T17:13:21+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php:87
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(303): get_star_rating('wws_assign_prod...')
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nicedesi/panache.nic-edesign.com/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/template-parts/content-product.php(79): do_action('woocommerce_aft...', 'wws_assign_prod...')
+#4 /home/nicedesi/panache.nic-edesign.com/wp-includes/template.php(772): require('/home/nicedesi/...')
+#5 /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/nicedesi/...', false)
+#6 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/archive-product.php(96):  in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-video-functions/wws-video-functions.php on line 87
+

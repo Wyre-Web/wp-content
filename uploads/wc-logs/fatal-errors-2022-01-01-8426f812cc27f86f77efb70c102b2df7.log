@@ -1,0 +1,32 @@
+2022-01-01T15:36:11+00:00 CRITICAL Uncaught Error: Call to a member function the_post() on null in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php:38
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php on line 38
+
+2022-01-01T20:53:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php:26
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php on line 26
+
+2022-01-01T21:04:35+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php:21
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php on line 21
+
+2022-01-01T21:18:33+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on string in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php:37
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/author.php on line 37
+

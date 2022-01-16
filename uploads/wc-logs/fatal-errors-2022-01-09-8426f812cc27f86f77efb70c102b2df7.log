@@ -1,0 +1,8 @@
+2022-01-09T01:40:10+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/searchpage.php:19
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/searchpage.php on line 19
+

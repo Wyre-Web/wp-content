@@ -1,0 +1,106 @@
+2021-12-11T00:03:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:46
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T00:23:59+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:42
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 42
+
+2021-12-11T02:02:01+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:32+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:42+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:43+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:44+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:45+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:45+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:02:45+00:00 CRITICAL Cannot use [] for reading in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 46
+
+2021-12-11T02:13:18+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:50
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 50
+
+2021-12-11T02:19:21+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:43
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(43): implode(', ', Array)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 43
+
+2021-12-11T02:20:02+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:43
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php(43): implode(', ', Array)
+#1 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 43
+
+2021-12-11T03:07:46+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:51
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 51
+
+2021-12-11T23:33:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_the_id() in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:63
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 63
+
+2021-12-11T23:51:01+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:38
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 38
+
+2021-12-11T23:52:05+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:38
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 38
+
+2021-12-11T23:52:08+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:38
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 38
+
+2021-12-11T23:55:16+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php:57
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-my-repertoire.php on line 57
+

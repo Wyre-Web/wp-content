@@ -1,0 +1,349 @@
+[2022-01-04 12:59:08 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:08 : INFO] - 
+ 
+[2022-01-04 13:04:08 : INFO] - Header for logs at time:  Tue, 04 Jan 2022 13:04:08 +0000 on https://panache.nic-edesign.com 
+[2022-01-04 13:04:08 : INFO] - WP: 5.8.2 
+[2022-01-04 13:04:08 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-04 13:04:08 : INFO] - MySQL: 10.3.32 
+[2022-01-04 13:04:08 : INFO] - WPLANG: en_GB 
+[2022-01-04 13:04:08 : INFO] - Server: LiteSpeed 
+[2022-01-04 13:04:08 : INFO] - Outbound connections: N 
+[2022-01-04 13:04:08 : INFO] - safe_mode: 0 
+[2022-01-04 13:04:08 : INFO] - max_execution_time: 120 
+[2022-01-04 13:04:08 : INFO] - memory_limit: 2048M (used: 54.7M | 56.5M) 
+[2022-01-04 13:04:08 : INFO] - multisite: N 
+[2022-01-04 13:04:08 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-04 13:04:08 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-04 13:04:08 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-04 13:04:08 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-04 13:04:08 : INFO] - Processing task with ID : 81, and type 'smush' 
+[2022-01-04 13:04:08 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:08 : INFO] - 75 
+[2022-01-04 13:04:09 : INFO] - Backing up the original image - 2022/01/award-updraft-pre-smush-original.jpg 
+[2022-01-04 13:04:09 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:09 : INFO] - 75 
+[2022-01-04 13:04:12 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:12 : INFO] - 75 
+[2022-01-04 13:04:13 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:13 : INFO] - 75 
+[2022-01-04 13:04:16 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:16 : INFO] - 75 
+[2022-01-04 13:04:19 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:19 : INFO] - 75 
+[2022-01-04 13:04:20 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:20 : INFO] - 75 
+[2022-01-04 13:04:20 : INFO] - Re_Smush_It_Task with attachment ID : 92260, autocreated on : January 04, 2022 12:59:08 
+[2022-01-04 13:04:20 : INFO] - 75 
+[2022-01-04 13:04:21 : INFO] - Successfully optimized the image - /home/nicedesi/panache.nic-edesign.com/wp-content/uploads/2022/01/award.jpg.The file was compressed from 152.70 KB to 123.82 KB saving 18.92 percent using WP-Optimize 
+[2022-01-04 13:04:21 : INFO] - Completed processing task with ID : 81, and type 'smush' 
+[2022-01-04 13:04:21 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-04 13:04:21 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-04 13:04:21 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-04 13:04:21 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-04 13:08:06 : INFO] - Re_Smush_It_Task with attachment ID : 92262, autocreated on : January 04, 2022 01:08:06 
+[2022-01-04 13:19:46 : INFO] - 
+ 
+[2022-01-04 13:19:46 : INFO] - Header for logs at time:  Tue, 04 Jan 2022 13:19:46 +0000 on https://panache.nic-edesign.com 
+[2022-01-04 13:19:46 : INFO] - WP: 5.8.2 
+[2022-01-04 13:19:46 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-04 13:19:46 : INFO] - MySQL: 10.3.32 
+[2022-01-04 13:19:46 : INFO] - WPLANG: en_GB 
+[2022-01-04 13:19:46 : INFO] - Server: LiteSpeed 
+[2022-01-04 13:19:46 : INFO] - Outbound connections: N 
+[2022-01-04 13:19:46 : INFO] - safe_mode: 0 
+[2022-01-04 13:19:46 : INFO] - max_execution_time: 120 
+[2022-01-04 13:19:46 : INFO] - memory_limit: 2048M (used: 54.7M | 22.5M) 
+[2022-01-04 13:19:46 : INFO] - multisite: N 
+[2022-01-04 13:19:46 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-04 13:19:46 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-04 13:19:46 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-04 13:19:46 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-04 13:19:46 : INFO] - Processing task with ID : 82, and type 'smush' 
+[2022-01-04 13:19:46 : INFO] - Re_Smush_It_Task with attachment ID : 92262, autocreated on : January 04, 2022 01:08:06 
+[2022-01-04 13:19:46 : INFO] - 75 
+[2022-01-04 13:19:46 : INFO] - Backing up the original image - 2022/01/mobile-phone-8-64-updraft-pre-smush-original.png 
+[2022-01-04 13:19:46 : INFO] - Successfully optimized the image - /home/nicedesi/panache.nic-edesign.com/wp-content/uploads/2022/01/mobile-phone-8-64.png.The file was compressed from 729 bytes to 668 bytes saving 8.37 percent using WP-Optimize 
+[2022-01-04 13:19:46 : INFO] - Completed processing task with ID : 82, and type 'smush' 
+[2022-01-04 13:19:46 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-04 13:19:46 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-04 13:19:46 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-04 13:19:46 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-04 13:30:38 : INFO] - 
+ 
+[2022-01-04 13:30:38 : INFO] - Header for logs at time:  Tue, 04 Jan 2022 13:30:38 +0000 on https://panache.nic-edesign.com 
+[2022-01-04 13:30:38 : INFO] - WP: 5.8.2 
+[2022-01-04 13:30:38 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-04 13:30:38 : INFO] - MySQL: 10.3.32 
+[2022-01-04 13:30:38 : INFO] - WPLANG: en_GB 
+[2022-01-04 13:30:38 : INFO] - Server: LiteSpeed 
+[2022-01-04 13:30:38 : INFO] - Outbound connections: N 
+[2022-01-04 13:30:38 : INFO] - safe_mode: 0 
+[2022-01-04 13:30:38 : INFO] - max_execution_time: 120 
+[2022-01-04 13:30:38 : INFO] - memory_limit: 2048M (used: 54.7M | 20.5M) 
+[2022-01-04 13:30:38 : INFO] - multisite: N 
+[2022-01-04 13:30:38 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-04 13:30:38 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2022-01-10 21:41:38 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:46:40 : INFO] - 
+ 
+[2022-01-10 21:46:40 : INFO] - Header for logs at time:  Mon, 10 Jan 2022 21:46:40 +0000 on https://panache.nic-edesign.com 
+[2022-01-10 21:46:40 : INFO] - WP: 5.8.3 
+[2022-01-10 21:46:40 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-10 21:46:40 : INFO] - MySQL: 10.3.32 
+[2022-01-10 21:46:40 : INFO] - WPLANG: en_GB 
+[2022-01-10 21:46:40 : INFO] - Server: LiteSpeed 
+[2022-01-10 21:46:40 : INFO] - Outbound connections: N 
+[2022-01-10 21:46:40 : INFO] - safe_mode: 0 
+[2022-01-10 21:46:40 : INFO] - max_execution_time: 300 
+[2022-01-10 21:46:40 : INFO] - memory_limit: 2048M (used: 58.3M | 60.5M) 
+[2022-01-10 21:46:40 : INFO] - multisite: N 
+[2022-01-10 21:46:40 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-10 21:46:40 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-10 21:46:40 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-10 21:46:40 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-10 21:46:40 : INFO] - Processing task with ID : 83, and type 'smush' 
+[2022-01-10 21:46:40 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:46:40 : INFO] - 75 
+[2022-01-10 21:46:49 : INFO] - Backing up the original image - 2022/01/cloud-297112-updraft-pre-smush-original.png 
+[2022-01-10 21:46:49 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:46:49 : INFO] - 75 
+[2022-01-10 21:46:55 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:46:55 : INFO] - 75 
+[2022-01-10 21:47:00 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:00 : INFO] - 75 
+[2022-01-10 21:47:03 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:03 : INFO] - 75 
+[2022-01-10 21:47:04 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:04 : INFO] - 75 
+[2022-01-10 21:47:05 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:05 : INFO] - 75 
+[2022-01-10 21:47:05 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:05 : INFO] - 75 
+[2022-01-10 21:47:10 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:10 : INFO] - 75 
+[2022-01-10 21:47:16 : INFO] - Re_Smush_It_Task with attachment ID : 92301, autocreated on : January 10, 2022 09:41:38 
+[2022-01-10 21:47:16 : INFO] - 75 
+[2022-01-10 21:47:26 : INFO] - Successfully optimized the image - /home/nicedesi/panache.nic-edesign.com/wp-content/uploads/2022/01/cloud-297112.png.The file was compressed from 46.43 KB to 17.43 KB saving 62.46 percent using WP-Optimize 
+[2022-01-10 21:47:26 : INFO] - Completed processing task with ID : 83, and type 'smush' 
+[2022-01-10 21:47:26 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-10 21:47:26 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-10 21:47:26 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-10 21:47:26 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-10 21:56:04 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:04 : INFO] - 
+ 
+[2022-01-10 21:57:04 : INFO] - Header for logs at time:  Mon, 10 Jan 2022 21:57:04 +0000 on https://panache.nic-edesign.com 
+[2022-01-10 21:57:04 : INFO] - WP: 5.8.3 
+[2022-01-10 21:57:04 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-10 21:57:04 : INFO] - MySQL: 10.3.32 
+[2022-01-10 21:57:04 : INFO] - WPLANG: en_GB 
+[2022-01-10 21:57:04 : INFO] - Server: LiteSpeed 
+[2022-01-10 21:57:04 : INFO] - Outbound connections: N 
+[2022-01-10 21:57:04 : INFO] - safe_mode: 0 
+[2022-01-10 21:57:04 : INFO] - max_execution_time: 300 
+[2022-01-10 21:57:04 : INFO] - memory_limit: 2048M (used: 58.3M | 60.5M) 
+[2022-01-10 21:57:04 : INFO] - multisite: N 
+[2022-01-10 21:57:04 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-10 21:57:04 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-10 21:57:04 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-10 21:57:04 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-10 21:57:04 : INFO] - Processing task with ID : 84, and type 'smush' 
+[2022-01-10 21:57:04 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:04 : INFO] - 75 
+[2022-01-10 21:57:09 : INFO] - Backing up the original image - 2022/01/cloud-297112-1-updraft-pre-smush-original.png 
+[2022-01-10 21:57:09 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:09 : INFO] - 75 
+[2022-01-10 21:57:10 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:10 : INFO] - 75 
+[2022-01-10 21:57:14 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:14 : INFO] - 75 
+[2022-01-10 21:57:19 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:19 : INFO] - 75 
+[2022-01-10 21:57:23 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:23 : INFO] - 75 
+[2022-01-10 21:57:23 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:23 : INFO] - 75 
+[2022-01-10 21:57:24 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:24 : INFO] - 75 
+[2022-01-10 21:57:32 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:32 : INFO] - 75 
+[2022-01-10 21:57:32 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:32 : INFO] - 75 
+[2022-01-10 21:57:32 : INFO] - Re_Smush_It_Task with attachment ID : 92302, autocreated on : January 10, 2022 09:56:04 
+[2022-01-10 21:57:32 : INFO] - 75 
+[2022-01-10 21:57:38 : INFO] - Successfully optimized the image - /home/nicedesi/panache.nic-edesign.com/wp-content/uploads/2022/01/cloud-297112-1.png.The file was compressed from 10.76 KB to 9.84 KB saving 8.58 percent using WP-Optimize 
+[2022-01-10 21:57:38 : INFO] - Completed processing task with ID : 84, and type 'smush' 
+[2022-01-10 21:57:38 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-10 21:57:38 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-10 21:57:38 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-10 21:57:38 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-10 22:04:52 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:07:53 : INFO] - 
+ 
+[2022-01-10 22:07:53 : INFO] - Header for logs at time:  Mon, 10 Jan 2022 22:07:53 +0000 on https://panache.nic-edesign.com 
+[2022-01-10 22:07:53 : INFO] - WP: 5.8.3 
+[2022-01-10 22:07:53 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-10 22:07:53 : INFO] - MySQL: 10.3.32 
+[2022-01-10 22:07:53 : INFO] - WPLANG: en_GB 
+[2022-01-10 22:07:53 : INFO] - Server: LiteSpeed 
+[2022-01-10 22:07:53 : INFO] - Outbound connections: N 
+[2022-01-10 22:07:53 : INFO] - safe_mode: 0 
+[2022-01-10 22:07:53 : INFO] - max_execution_time: 300 
+[2022-01-10 22:07:53 : INFO] - memory_limit: 2048M (used: 58.3M | 60.5M) 
+[2022-01-10 22:07:53 : INFO] - multisite: N 
+[2022-01-10 22:07:53 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-10 22:07:53 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-10 22:07:53 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-10 22:07:53 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-10 22:07:53 : INFO] - Processing task with ID : 85, and type 'smush' 
+[2022-01-10 22:07:53 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:07:53 : INFO] - 75 
+[2022-01-10 22:07:58 : INFO] - Backing up the original image - 2022/01/cloud-297112-2-updraft-pre-smush-original.png 
+[2022-01-10 22:07:58 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:07:58 : INFO] - 75 
+[2022-01-10 22:08:28 : INFO] - Task with ID 85 and type (smush) failed with error code http_request_failed - cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received 
+[2022-01-10 22:08:28 : INFO] - Cannot establish connection with reSmush.it webservice. Please try later 
+[2022-01-10 22:08:28 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:28 : INFO] - 75 
+[2022-01-10 22:08:29 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:29 : INFO] - 75 
+[2022-01-10 22:08:29 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:29 : INFO] - 75 
+[2022-01-10 22:08:30 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:30 : INFO] - 75 
+[2022-01-10 22:08:35 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:35 : INFO] - 75 
+[2022-01-10 22:08:36 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:36 : INFO] - 75 
+[2022-01-10 22:08:37 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:37 : INFO] - 75 
+[2022-01-10 22:08:37 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:37 : INFO] - 75 
+[2022-01-10 22:08:38 : INFO] - Re_Smush_It_Task with attachment ID : 92303, autocreated on : January 10, 2022 10:04:52 
+[2022-01-10 22:08:38 : INFO] - 75 
+[2022-01-10 22:08:41 : INFO] - Successfully optimized the image - /home/nicedesi/panache.nic-edesign.com/wp-content/uploads/2022/01/cloud-297112-2.png.The file was compressed from 11.13 KB to 10.45 KB saving 6.08 percent using WP-Optimize 
+[2022-01-10 22:08:41 : INFO] - Completed processing task with ID : 85, and type 'smush' 
+[2022-01-10 22:08:41 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-10 22:08:41 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-10 22:08:41 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-10 22:08:41 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-10 22:08:53 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:16 : INFO] - 
+ 
+[2022-01-10 22:37:16 : INFO] - Header for logs at time:  Mon, 10 Jan 2022 22:37:16 +0000 on https://panache.nic-edesign.com 
+[2022-01-10 22:37:16 : INFO] - WP: 5.8.3 
+[2022-01-10 22:37:16 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-10 22:37:16 : INFO] - MySQL: 10.3.32 
+[2022-01-10 22:37:16 : INFO] - WPLANG: en_GB 
+[2022-01-10 22:37:16 : INFO] - Server: LiteSpeed 
+[2022-01-10 22:37:16 : INFO] - Outbound connections: N 
+[2022-01-10 22:37:16 : INFO] - safe_mode: 0 
+[2022-01-10 22:37:16 : INFO] - max_execution_time: 300 
+[2022-01-10 22:37:16 : INFO] - memory_limit: 2048M (used: 58.3M | 60.5M) 
+[2022-01-10 22:37:16 : INFO] - multisite: N 
+[2022-01-10 22:37:16 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-10 22:37:16 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-10 22:37:16 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-10 22:37:16 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-10 22:37:16 : INFO] - Processing task with ID : 86, and type 'smush' 
+[2022-01-10 22:37:16 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:16 : INFO] - 75 
+[2022-01-10 22:37:19 : INFO] - Backing up the original image - 2022/01/cloud-297112-3-updraft-pre-smush-original.png 
+[2022-01-10 22:37:19 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:19 : INFO] - 75 
+[2022-01-10 22:37:21 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:21 : INFO] - 75 
+[2022-01-10 22:37:21 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:21 : INFO] - 75 
+[2022-01-10 22:37:27 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:27 : INFO] - 75 
+[2022-01-10 22:37:27 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:27 : INFO] - 75 
+[2022-01-10 22:37:28 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:28 : INFO] - 75 
+[2022-01-10 22:37:28 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:28 : INFO] - 75 
+[2022-01-10 22:37:28 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:28 : INFO] - 75 
+[2022-01-10 22:37:29 : INFO] - Re_Smush_It_Task with attachment ID : 92305, autocreated on : January 10, 2022 10:08:52 
+[2022-01-10 22:37:29 : INFO] - 75 
+[2022-01-10 22:37:32 : INFO] - Successfully optimized the image - /home/nicedesi/panache.nic-edesign.com/wp-content/uploads/2022/01/cloud-297112-3.png.The file was compressed from 10.53 KB to 9.88 KB saving 6.16 percent using WP-Optimize 
+[2022-01-10 22:37:32 : INFO] - Completed processing task with ID : 86, and type 'smush' 
+[2022-01-10 22:37:32 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-10 22:37:32 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-10 22:37:32 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-10 22:37:32 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-10 22:53:24 : INFO] - 
+ 
+[2022-01-10 22:53:24 : INFO] - Header for logs at time:  Mon, 10 Jan 2022 22:53:24 +0000 on https://panache.nic-edesign.com 
+[2022-01-10 22:53:24 : INFO] - WP: 5.8.3 
+[2022-01-10 22:53:24 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-10 22:53:24 : INFO] - MySQL: 10.3.32 
+[2022-01-10 22:53:24 : INFO] - WPLANG: en_GB 
+[2022-01-10 22:53:24 : INFO] - Server: LiteSpeed 
+[2022-01-10 22:53:24 : INFO] - Outbound connections: N 
+[2022-01-10 22:53:24 : INFO] - safe_mode: 0 
+[2022-01-10 22:53:24 : INFO] - max_execution_time: 300 
+[2022-01-10 22:53:24 : INFO] - memory_limit: 2048M (used: 58.3M | 60.5M) 
+[2022-01-10 22:53:24 : INFO] - multisite: N 
+[2022-01-10 22:53:24 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-10 22:53:24 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2022-01-11 00:10:02 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:36 : INFO] - 
+ 
+[2022-01-11 00:15:36 : INFO] - Header for logs at time:  Tue, 11 Jan 2022 00:15:36 +0000 on https://panachedancefitness.com 
+[2022-01-11 00:15:36 : INFO] - WP: 5.8.3 
+[2022-01-11 00:15:36 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-11 00:15:36 : INFO] - MySQL: 10.3.32 
+[2022-01-11 00:15:36 : INFO] - WPLANG: en_GB 
+[2022-01-11 00:15:36 : INFO] - Server: LiteSpeed 
+[2022-01-11 00:15:36 : INFO] - Outbound connections: N 
+[2022-01-11 00:15:36 : INFO] - safe_mode: 0 
+[2022-01-11 00:15:36 : INFO] - max_execution_time: 300 
+[2022-01-11 00:15:36 : INFO] - memory_limit: 2048M (used: 51M | 52.5M) 
+[2022-01-11 00:15:36 : INFO] - multisite: N 
+[2022-01-11 00:15:36 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-11 00:15:36 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2022-01-11 00:15:36 : DEBUG] - Lock option (updraft_lock_smush, wpb3_options) was created in the database 
+[2022-01-11 00:15:36 : INFO] - Lock (updraft_lock_smush, wpb3_options) acquired after initialising the database 
+[2022-01-11 00:15:36 : INFO] - Processing task with ID : 87, and type 'smush' 
+[2022-01-11 00:15:36 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:36 : INFO] - 75 
+[2022-01-11 00:15:42 : INFO] - Backing up the original image - 2022/01/cropped-panachelogoico-updraft-pre-smush-original.png 
+[2022-01-11 00:15:42 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:42 : INFO] - 75 
+[2022-01-11 00:15:42 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:42 : INFO] - 75 
+[2022-01-11 00:15:44 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:44 : INFO] - 75 
+[2022-01-11 00:15:44 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:44 : INFO] - 75 
+[2022-01-11 00:15:45 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:45 : INFO] - 75 
+[2022-01-11 00:15:45 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:45 : INFO] - 75 
+[2022-01-11 00:15:45 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:45 : INFO] - 75 
+[2022-01-11 00:15:50 : INFO] - Re_Smush_It_Task with attachment ID : 92318, autocreated on : January 11, 2022 12:10:02 
+[2022-01-11 00:15:50 : INFO] - 75 
+[2022-01-11 00:15:51 : INFO] - Successfully optimized the image - /home/nicedesi/panachedancefitness.com/wp-content/uploads/2022/01/cropped-panachelogoico.png.The file was compressed from 92.79 KB to 35.78 KB saving 61.44 percent using WP-Optimize 
+[2022-01-11 00:15:51 : INFO] - Completed processing task with ID : 87, and type 'smush' 
+[2022-01-11 00:15:51 : INFO] - Lock option (updraft_lock_smush, wpb3_options) released 
+[2022-01-11 00:15:51 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2022-01-11 00:15:51 : INFO] - Lock option (updraft_lock_smush, wpb3_options) was deleted from the database 
+[2022-01-11 00:15:51 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2022-01-11 00:25:52 : INFO] - 
+ 
+[2022-01-11 00:25:52 : INFO] - Header for logs at time:  Tue, 11 Jan 2022 00:25:52 +0000 on https://panachedancefitness.com 
+[2022-01-11 00:25:52 : INFO] - WP: 5.8.3 
+[2022-01-11 00:25:52 : INFO] - PHP: 7.4.27 (litespeed, Linux hydrogen.cloudhosting.co.uk 3.10.0-962.3.2.lve1.5.36.el7.x86_64 #1 SMP Mon May 18 02:16:06 EDT 2020 x86_64) 
+[2022-01-11 00:25:52 : INFO] - MySQL: 10.3.32 
+[2022-01-11 00:25:52 : INFO] - WPLANG: en_GB 
+[2022-01-11 00:25:52 : INFO] - Server: LiteSpeed 
+[2022-01-11 00:25:52 : INFO] - Outbound connections: N 
+[2022-01-11 00:25:52 : INFO] - safe_mode: 0 
+[2022-01-11 00:25:52 : INFO] - max_execution_time: 300 
+[2022-01-11 00:25:52 : INFO] - memory_limit: 2048M (used: 51M | 52.5M) 
+[2022-01-11 00:25:52 : INFO] - multisite: N 
+[2022-01-11 00:25:52 : INFO] - openssl: OpenSSL 1.1.1d  10 Sep 2019 
+[2022-01-11 00:25:52 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 

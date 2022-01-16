@@ -1,0 +1,112 @@
+[02-Nov-2021 22:55:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/wws-set-tag-functions.php on line 17
+[11-Nov-2021 22:04:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:04:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:04:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 3
+[11-Nov-2021 22:05:53 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:05:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:05:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:05:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:05:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:05:54 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcode() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17
+[11-Nov-2021 22:06:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/plugins/wws-set-tags/index.php on line 17

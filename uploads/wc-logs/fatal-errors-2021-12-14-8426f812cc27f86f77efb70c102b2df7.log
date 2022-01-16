@@ -1,0 +1,8 @@
+2021-12-14T00:27:36+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-repertoire.php:55
+Stack trace:
+#0 /home/nicedesi/panache.nic-edesign.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panache.nic-edesign.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panache.nic-edesign.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panache.nic-edesign.com/wp-content/themes/wwcs/page-repertoire.php on line 55
+

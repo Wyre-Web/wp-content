@@ -194,6 +194,7 @@ get_header( 'shop' );
                                     </p>
 
                                 </div>
+                                </div>
                             <hr style="border-top: 1px solid purple;">
                                 <div class="row">
 

@@ -186,7 +186,7 @@ get_header( 'shop' );
                                         <?php
                                         if($choreographers) {
                                             foreach ($choreographers as $choreographer) {
-                                                echo '<span style="float:left!important;">'. $choreographer["display_name"].'</span>&nbsp;&nbsp;';
+                                                echo $choreographer["display_name"].'&nbsp;&nbsp;';
                                             }
                                         }
                                         ?>

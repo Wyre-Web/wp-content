@@ -207,7 +207,7 @@ if (current_user_can('dance-captains') || current_user_can('administrator')) :
                                                 }
                                                 ?>
                                             </p>
-
+                                        </div>
 
                                     </div>
                                     <hr style="border-top: 1px solid purple;">

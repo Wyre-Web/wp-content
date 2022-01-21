@@ -1338,8 +1338,11 @@ strong.rating {
 }
 div.inner-prod {
 	width: 95%;
-	background-color: rgba(26,26,26,0.8);
-	min-height: 15em;
+	background-color: rgba(255,255,255,0.8);
+	/*min-height: 15em;*/
+}
+div.inner-prod p {
+	color:#000!important;
 }
 .btn-success {
 	width: 50% !important;

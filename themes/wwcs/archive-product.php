@@ -180,20 +180,20 @@ get_header( 'shop' );
                                 </div>
                             </div>
                                 <div class="w-100" style="padding-left: 15px;padding-bottom:25px;">
-                                    <p title="choreographer" style="font-family: PT Sans!important;display: inline!important;font-size:18px!important;font-weight: 700!important;">
-                                    <img src="/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png" style="width:30px!important;float: left!important;" alt="dancer icon">&nbsp;&nbsp;
+                                    <p title="choreographer" style="float:left!important;font-family: PT Sans!important;display: inline-block!important;font-size:18px!important;font-weight: 700!important;">
+                                    <img src="/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png" style="width:30px!important;float: left!important;" alt="dancer icon">
 
                                         <?php
                                         if($choreographers) {
                                             foreach ($choreographers as $choreographer) {
-                                                echo $choreographer["display_name"].'&nbsp;&nbsp;';
+                                                echo '<span style="float:left!important;">'. $choreographer["display_name"].'</span>&nbsp;&nbsp;';
                                             }
                                         }
                                         ?>
                                     </p>
 
                                 </div>
-                            <hr>
+                            <hr style="border-top: purple!important;">
                                 <div class="row">
 
                                     <div class="col-md-12 text-center" style="padding-right:35px;position:absolute;bottom:0;">

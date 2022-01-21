@@ -155,7 +155,7 @@ get_header( 'shop' );
                             ?>
 
                         </div>
-                    <h3 style="color:#fff!important;font-weight: 700!important;min-height:2em;">
+                    <h3 style="color:#000000!important;font-weight: 700!important;min-height:2em;">
                         <?php
                         if($title) {
 
@@ -165,14 +165,14 @@ get_header( 'shop' );
 
                         ?>
                     </h3>
-                        <hr/>
+                        <hr style="border-top: 1px solid purple;"/>
                         <?php
                         if($tags) { ?>
                             <div class="prod-fields text-left">
                                 <div style="min-height:9em">
                                 <?php
                                 foreach ($tags as $tag) {
-                                    echo '<p style="font-size: 16px!important;color: #000;">'.$tag->name.'</p>';
+                                    echo '<p style="font-size: 16px!important;color: #000;font-family: PT Sans!important;font-weight: 700!important;">'.$tag->name.'</p>';
                                     //var_dump($artist);
                                 }
                                 ?>
@@ -180,8 +180,8 @@ get_header( 'shop' );
                                 </div>
                             </div>
                                 <div class="w-100" style="padding-left: 15px;padding-bottom:25px;">
-                                    <p title="choreographer" style="font-family: 'PT Sans', sans-serif!important;display: inline!important;float:left!important;font-size:18px!important;font-weight: 700!important;">
-                                    <div class="test rounded-circle" style="width:"><img src="/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png" style="width:20px!important;" alt="dancer icon">&nbsp;&nbsp;</div>
+                                    <p title="choreographer" style="font-family: PT Sans!important;display: inline!important;font-size:18px!important;font-weight: 700!important;">
+                                    <img src="/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png" style="width:30px!important;float: left!important;" alt="dancer icon">&nbsp;&nbsp;
 
                                         <?php
                                         if($choreographers) {
@@ -197,11 +197,11 @@ get_header( 'shop' );
                                 <div class="row">
 
                                     <div class="col-md-12 text-center" style="padding-right:35px;position:absolute;bottom:0;">
-                                        <h2 class="woocommerce-loop-product__title float-right" style="width:20%;">£&nbsp;<?php echo $price ?></h2>
-                                      <a href="<?php echo $link ?>" class="button product_type_simple text-left" style="margin-left:3px;background-color: #5f75d9!important;width:33%!important;float:left;font-size:12px;" ><i class="fas fa-play "></i>
-                                      &nbsp;&nbsp;preview</a>
-                                       <?php echo '<a class="button btn btn-success text-left product_type_simple" style="width:33%!important;float:left;margin-left: 3px;font-size:12px;background-color: #00c271" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
-                                        basket</a>';
+                                        <h2 class="woocommerce-loop-product__title float-right" style="width:20%;color: #000000;">£<?php echo $price ?></h2>
+                                      <a href="<?php echo $link ?>" class="button product_type_simple text-center" style="margin-left:3px;background-color: #480082!important;width:33%!important;float:left;font-size:12px;" ><i class="fas fa-play "></i>
+                                      </a>
+                                       <?php echo '<a class="button btn btn-success text-center product_type_simple" style="width:33%!important;float:left;margin-left: 3px;font-size:12px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
+                                        </a>';
                                       // do_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
                                        ?>
                                     </div>

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container-fluid">
 	<div class="row justify-content-center">
-		<div class="col-8">
+		<div class="col-lg-8 col-md-12 col-sm-12">
 		    <div class="jumbotron">
 	    	<?php while ( have_posts() ) : the_post(); ?>
 			<br>	<h1>New DC Enquiry</h1><br>

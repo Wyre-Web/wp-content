@@ -16,10 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-get_header();
-$current_user = wp_get_current_user(); // grab user info  from the database 
 
-if ( current_user_can( 'dance-captains' )  || current_user_can('administrator') ) :
 /*$nonce = $_REQUEST['_wpnonce'];
 $action = $_REQUEST['action'];
 $user_id = wp_get_current_user()->ID;
@@ -229,5 +226,5 @@ get_header( 'shop' );
 
         </section>
    <?php
-endif;
+
 get_footer();

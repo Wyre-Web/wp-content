@@ -180,7 +180,7 @@ get_header( 'shop' );
                                     </p>
 
                                 </div>
-                            <hr style=" border-top: 1px solid purple!important;" />
+                            <hr style=" border-top: 1px solid purple!important;" >
                                 <div class="row">
 
                                     <div class="col-md-12 text-center" style="padding-right:35px;position:absolute;bottom:0;">

@@ -160,7 +160,7 @@ get_header( 'shop' );
                                 <?php
                                 foreach ($tags as $tag) {
                                     echo '<p style="font-size: 16px!important;color: #000;font-family: PT Sans!important;font-weight: 700!important;">'.$tag->name.'</p>';
-                                    //var_dump($artist);
+
                                 }
                                 ?>
 
@@ -189,7 +189,6 @@ get_header( 'shop' );
                                       </a>
                                        <?php echo '<a class="button btn btn-success text-center product_type_simple" style="width:33%!important;float:left;margin-left: 3px;font-size:12px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
                                         </a>';
-                                      // do_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
                                        ?>
                                     </div>
                                 </div>

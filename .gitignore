@@ -1,0 +1,30 @@
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+/*
+!wp-content/plugins/
+!wp-content/themes/
+
+# ignore these plugins
+/plugins/hello.php
+/plugins/woocommerce
+/plugins/advanced-custom-fields
+/plugins/litespeed-cache
+/plugins/nav-menu-roles
+/plugins/query-monitor
+/plugins/user-role-editor
+/plugins/velvet-blues-update-urls
+/plugins/woo-wallet
+/plugins/wordpress-importer
+
+
+# ignore specific themes
+wp-content/themes/twenty*/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite

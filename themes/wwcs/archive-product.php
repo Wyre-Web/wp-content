@@ -44,20 +44,7 @@ $args = array(
 );
 
 $product_data = wc_get_products($args); // Run the $arg through WC_Product_Query (just like WP_Query)
-/*$prices = array();
-foreach ($product_data as $the_product) {
-    $prices[] = $the_product->price;
-}
 
-$price_list = array_unique($prices);*/
-
-/*if(! in_array(' ', array_unique($prices))) {
-
-}*/
-/*$prices_unique = json_encode(array_unique($prices));
-var_dump($prices_unique);
-$prices_list = explode(' ', $prices_unique);
-var_dump($prices_list);*/
 $cust_history = panache_get_customer_purchase_history();
 get_header( 'shop' );
 ?>
@@ -181,7 +168,7 @@ get_header( 'shop' );
                             </div>
                                 <div class="w-100" style="padding-left: 15px;padding-bottom:25px;">
                                     <p title="choreographer" style="float:left!important;font-family: PT Sans!important;display: inline-block!important;font-size:18px!important;font-weight: 700!important;">
-                                    <img src="/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png" style="width:30px!important;float: left!important;" alt="dancer icon">
+                                    <img src="https://panachedancefitness.com/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png" style="width:30px!important;float: left!important;" alt="dancer icon">
 
                                         <?php
                                         if($choreographers) {
@@ -193,7 +180,7 @@ get_header( 'shop' );
                                     </p>
 
                                 </div>
-                            <hr style="border-top: purple!important;">
+                            <hr style="border-top: 1px solid purple!important;" />
                                 <div class="row">
 
                                     <div class="col-md-12 text-center" style="padding-right:35px;position:absolute;bottom:0;">

@@ -70,9 +70,7 @@
 }
 
 a.active i {
-    color: #fff!important;
-    background: linear-gradient(
-            90deg, rgb(55, 50, 154) 0%, rgba(229,64,216,1) 12%, rgba(95,117,217,1) 100%)!important;
+    color: #d70041 !important;
     font-size:22px!important;
     font-weight: bold!important;
     opacity: 1!important;

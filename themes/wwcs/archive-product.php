@@ -16,13 +16,26 @@
 
 defined( 'ABSPATH' ) || exit;
 
-get_header();
-$current_user = wp_get_current_user(); // grab user info  from the database 
 
+
+/*$nonce = $_REQUEST['_wpnonce'];
+$action = $_REQUEST['action'];
+$user_id = wp_get_current_user()->ID;
+$referrer = $_SERVER['HTTP_REFERER'];
+//print_r($referrer);
+if(strstr($referrer, 'https://panache.nic-edesign.com/login/')) {
+    if (wp_verify_nonce($nonce, 'login-' . $user_id)) {
+       // echo 'Security passed';
+    } else {
+      //  echo 'nonce invalid';
+        // die( __( 'Security check', 'textdomain' ) );
+    }
+}*/
 if ( current_user_can( 'dance-captains' )  || current_user_can('administrator') ) :
 
     global $woocommerce;
     $search = get_search_query();
+
 //var_dump($woocommerce);
     $args = array(
         'post_type' => 'product',
@@ -194,6 +207,11 @@ if ( current_user_can( 'dance-captains' )  || current_user_can('administrator') 
 
 
 
+
+        </section>
+   <?php
+
+
                         }
                     }
                     ?>
@@ -204,4 +222,6 @@ if ( current_user_can( 'dance-captains' )  || current_user_can('administrator') 
     </section>
 <?php
 endif;
+
 get_footer();
+

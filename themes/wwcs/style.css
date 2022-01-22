@@ -74,7 +74,7 @@ html {
 }
 
 .login h1 a {
-    display: none !important;
+	display: none !important;
 }
 /* Sections
 	 ========================================================================== */
@@ -124,8 +124,8 @@ body::-webkit-scrollbar-thumb {
 
 }
 body {
-    background-color: #2b2b2b !important;
-    overflow-x: hidden!important;
+	background-color: #2b2b2b !important;
+	overflow-x: hidden!important;
 }
 ul.dropdown-menu li {
 	width: 100% !important;
@@ -168,9 +168,9 @@ tr, td, th  {
 	display:block!important;
 	padding:10px!important;
 }
-	/**
-     * Remove the gray background on active links in IE 10.
-     */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
 a {
 	background-color: transparent;
 	color:#f769b4 !important;
@@ -888,7 +888,7 @@ textarea {
 	width: 100%;
 }
 .oneb {
-    background-color: #1b1b1b!important;
+	background-color: #1b1b1b!important;
 }
 
 .gallery-columns-2 {
@@ -1062,7 +1062,7 @@ label[for=payment_method_wallet] {
 }
 div#results-wrap, div#results-wrap-product {position:absolute;width:100%;background-color: #f5f5f5!important;max-height:25em;overflow-y:auto;display:none;z-index: 1000;margin-top:40px;}
 #search:focus-within div#results-wrap, #prod-search:focus-within div#results-wrap-product {
-    display:block!important;
+	display:block!important;
 }
 #myUL, #myProdUL {
 	/* Remove default list styling */
@@ -1095,15 +1095,15 @@ ul#myUL li, ul#myProdUL li {
 #myUL li a:hover span, #myProdUL li a:hover span  {
 	color:#fff!important;
 }
- input[type="text"]:focus {
- border: 1px solid #eee;
+input[type="text"]:focus {
+	border: 1px solid #eee;
 }
- pre {
-	 color:white!important;
- }
- form#user_favourites div.acf-form-submit input[type="submit"] {
-display: none!important;
- }
+pre {
+	color:white!important;
+}
+form#user_favourites div.acf-form-submit input[type="submit"] {
+	display: none!important;
+}
 .acf-relationship .list {
 	height: 280px!important;
 	font-weight: bold!important;
@@ -1315,7 +1315,7 @@ span#new-attr {
 
 }
 span#xmas-attr {
-     margin-top:3px;
+	margin-top:3px;
 	color:#fff;
 	font-size: 22px;
 	cursor: default;
@@ -1328,7 +1328,7 @@ strong.rating {
 	color: rgba(255,255,255,0.7) !important;
 	text-decoration: none!important;
 	border:0!important;
-	
+
 }
 #rep-tabs li a:focus {
 	color: rgba(255,255,255,0.7) !important;
@@ -1429,7 +1429,7 @@ div#check-wrap {
 	overflow-y:hidden!important;
 }
 div#check-wrap:focus-within {
-    height:auto!important;
+	height:auto!important;
 	overflow-y: visible!important;
 }
 div.woocommerce-billing-fields h3 {

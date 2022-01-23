@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package wwcs
+ * @package WWS
  */
 
 ?>
@@ -13,7 +13,7 @@
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
-			 the_title( '<h1 class="entry-title text-center"><img class="lstar" src="/wp-content/uploads/2021/10/leftstar.png">', '<img class="rstar" src="/wp-content/uploads/2021/10/star1.png"></h1>' ); 
+			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
@@ -22,14 +22,14 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				wwcs_posted_on();
-				wwcs_posted_by();
+				wws_posted_on();
+				wws_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php wwcs_post_thumbnail(); ?>
+	<?php wws_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
@@ -37,7 +37,7 @@
 			sprintf(
 				wp_kses(
 					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'wwcs' ),
+					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'wws' ),
 					array(
 						'span' => array(
 							'class' => array(),
@@ -47,10 +47,12 @@
 				wp_kses_post( get_the_title() )
 			)
 		);
-
+		  if (function_exists("wws_awepop_popularity_list")) {
+			wws_awepop_popularity_list();
+			 }
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wwcs' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wws' ),
 				'after'  => '</div>',
 			)
 		);
@@ -58,6 +60,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php wwcs_entry_footer(); ?>
+		<?php wws_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -141,7 +141,12 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                     <hr style="border-top: 1px solid purple;" />
                     <?php
                                     if($tags) { ?>
+<<<<<<< Updated upstream
                     <div class="prod-fields text-left">
+=======
+                    <div class="prod-fields text-center">
+                    <h5>Stage/Screen-Album-Musical</h5>
+>>>>>>> Stashed changes
                         <div style="min-height:9em">
                             <?php
                                                 foreach ($tags as $tag) {
@@ -152,31 +157,50 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                         </div>
                     </div>
                     <div class="row">
+<<<<<<< Updated upstream
                         <div class="col-12">
                             <p title="choreographer"
                                 style="margin-left: .8em;float:left!important;font-family: PT Sans!important;display: inline-block!important;font-size:15px!important;font-weight: 700!important;">
                                 <img src="https://panachedancefitness.com/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png"
                                     style="width:30px!important;float: left!important; margin-right: .5em;"
+=======
+                        <div class="col-6">
+                            <p title="choreographer"
+                                style="font-size: 1em;margin-left: .8em; font-family: PT Sans!important;font-weight: 500!important;">
+                                <img src="https://panachedancefitness.com/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png"
+                                    style="width:30px!important; margin-right: .5em;"
+>>>>>>> Stashed changes
                                     alt="dancer icon">
                                 <?php
                                                 if($choreographers) {
                                                     foreach ($choreographers as $choreographer) {
-                                                        echo $choreographer["display_name"].'&nbsp;&nbsp;';
+                                                        echo $choreographer["display_name"].'<br>';
                                                     }
                                                 }
                                                 ?>
                             </p>
                         </div>
+<<<<<<< Updated upstream
                     </div>
                     <?php if ($itunes){?>
                     <div class="row">
                         <div class="col-12 text-left">
+=======
+                   
+                    <?php if ($itunes){?>
+             
+                        <div class="col-6 text-left">
+>>>>>>> Stashed changes
                             <p style="margin-left: .8em;padding-bottom: 0;margin-bottom: 0;"><img
                                     src="/wp-content/uploads/2022/02/note-16.png"><a
                                     style="font-size:15px!important;font-weight: 700!important;margin-left: .5em;color:black !important;font-family: PT Sans!important;"
                                     href="<?php echo $itunes; ?>">Listen on iTunes</a></p>
                         </div>
+<<<<<<< Updated upstream
                     </div><?php } ?>
+=======
+                   <?php } ?> </div>
+>>>>>>> Stashed changes
                     <hr style=" border-top: 1px solid purple!important;">
                     <div class="row">
                         <div class="col-6 text-left">

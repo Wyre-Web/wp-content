@@ -34,7 +34,7 @@ if ( ! ( is_user_logged_in() || current_user_can('front_end_post') ) ) {
                'order' => 'DSC'
 
          ),
-       	'return'			=> home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', wp_get_current_user()->ID ),
+       	'return' => home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', wp_get_current_user()->ID ).'/'. wp_get_current_user()->ID,
          'submit_value' => 'Submit',
      ));
 

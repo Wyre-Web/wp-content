@@ -30,7 +30,7 @@ get_header(); ?>
                                 'post_status' => 'publish',
                                 'form' => true,
                                 'honeypot' => true,
-                                'return'			=> home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', wp_get_current_user()->ID ),
+                                'return'			=> home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', wp_get_current_user()->ID ).'/'.wp_get_current_user()->ID,
                                 'submit_value' => 'Edit rehearsal', 'acf',
                             ));
 

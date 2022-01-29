@@ -11,7 +11,11 @@ get_header(); ?>
 	    <div class="col-12">
 	        	<div class="container">
 	     <div class="jumbotron"> 
+<<<<<<< HEAD
 	      <a href="<?php echo home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', wp_get_current_user()->ID).'/?id='.wp_get_current_user()->ID; ?>" >Back to Profile</a>
+=======
+	      <a href="<?php echo home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', wp_get_current_user()->ID.'/?id='. wp_get_current_user()->ID ); ?>" >Back to Profile</a>
+>>>>>>> added user id to permalinks to ensure target is correct
  <h1>Add Rehearsal</h1>
 	        
 	        

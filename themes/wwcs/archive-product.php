@@ -112,15 +112,15 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
 
                         if(!in_array($product_id, $cust_history)) {
                             ?>
-            <div style="margin-bottom: 4px;padding-left:2.5%!important;" class="col-md-3 text-center"
+            <div style="margin-bottom: 10px;padding-left:5%!important;" class="col-md-3 text-center"
                 id="<?php echo $product_id ?>">
-                <div class="inner-prod" style="width:90%!important;position:relative;min-height:26em !important;">
-                    <div class="w-100" style="min-height: 40px;">
+                <div class="inner-prod" style="width:90%!important;position:relative;">
+                    <div class="w-100" style="min-height: 20px;">
                         <?php
                                         if($fitness_track == true) { ?>
                         <p class="float-left"
-                            style="color:#fff!important;font-size:12px;padding:3px;background-color: #000000;"><i
-                                class="fas fa-burn" style="color: #ffa600;font-size:15px!important;"></i>&nbsp;fitness
+                            style="color:#fff!important;font-size:14px;padding:3px;background-color: #000000;"><i
+                                class="fas fa-burn" style="color: #ffa600;font-size:14px!important;"></i>&nbsp;fitness
                             track</p>
                         <?php
                                         }
@@ -131,45 +131,35 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                                         ?>
 
                     </div>
-                    <h3 style="color:#000000!important;font-weight: 700!important;min-height:2em;">
+                    <h5 style="color:#000000!important;font-weight: 700!important;">
                         <?php
                                         if($title) {
                                             echo $title.'<br />';
                                         }
                                         ?>
-                    </h3>
+                    </h5>
                     <hr style="border-top: 1px solid purple;" />
                     <?php
                                     if($tags) { ?>
-<<<<<<< Updated upstream
-                    <div class="prod-fields text-left">
-=======
                     <div class="prod-fields text-center">
-                    <h5>Stage/Screen-Album-Musical</h5>
->>>>>>> Stashed changes
-                        <div style="min-height:9em">
+                    <h6 style="color:black ;font-weight: 600">Stage/Screen-Album-Musical</h6>
+                        <div style="min-height:2em">
                             <?php
                                                 foreach ($tags as $tag) {
-                                                    echo '<p style="font-size: 16px!important;color: #000;font-family: PT Sans!important;font-weight: 700!important;">'.$tag->name.'</p>';
+                                                    echo '<p style="font-size: 14px!important;background-color: #f1f1f1;color: #000;font-family: PT Sans!important;font-weight: 700!important;">'.$tag->name.'</p>';
 
                                                 }
                                                 ?>
                         </div>
                     </div>
                     <div class="row">
-<<<<<<< Updated upstream
-                        <div class="col-12">
+                      
+                        <div class="col-12 text-center">
+                        <hr>
                             <p title="choreographer"
-                                style="margin-left: .8em;float:left!important;font-family: PT Sans!important;display: inline-block!important;font-size:15px!important;font-weight: 700!important;">
+                                style="font-size:14px;margin-left: .1em; font-family: PT Sans!important;font-weight: 500!important;">
                                 <img src="https://panachedancefitness.com/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png"
-                                    style="width:30px!important;float: left!important; margin-right: .5em;"
-=======
-                        <div class="col-6">
-                            <p title="choreographer"
-                                style="font-size: 1em;margin-left: .8em; font-family: PT Sans!important;font-weight: 500!important;">
-                                <img src="https://panachedancefitness.com/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png"
-                                    style="width:30px!important; margin-right: .5em;"
->>>>>>> Stashed changes
+                                    style="width:30px!important; margin-right: .1em;"
                                     alt="dancer icon">
                                 <?php
                                                 if($choreographers) {
@@ -180,42 +170,31 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                                                 ?>
                             </p>
                         </div>
-<<<<<<< Updated upstream
-                    </div>
-                    <?php if ($itunes){?>
-                    <div class="row">
-                        <div class="col-12 text-left">
-=======
                    
                     <?php if ($itunes){?>
              
-                        <div class="col-6 text-left">
->>>>>>> Stashed changes
+                        <div class="col-12 text-center">
                             <p style="margin-left: .8em;padding-bottom: 0;margin-bottom: 0;"><img
                                     src="/wp-content/uploads/2022/02/note-16.png"><a
-                                    style="font-size:15px!important;font-weight: 700!important;margin-left: .5em;color:black !important;font-family: PT Sans!important;"
+                                    style="font-size:14px!important;font-weight: 600!important;margin-left: .1em;color:black !important;font-family: PT Sans!important;"
                                     href="<?php echo $itunes; ?>">Listen on iTunes</a></p>
                         </div>
-<<<<<<< Updated upstream
-                    </div><?php } ?>
-=======
                    <?php } ?> </div>
->>>>>>> Stashed changes
                     <hr style=" border-top: 1px solid purple!important;">
                     <div class="row">
                         <div class="col-6 text-left">
                             <a href="<?php echo $link ?>" class="button btn product_type_simple text-center"
-                                style="margin-left: .5em !important;width: 100% !important;background-color: #480082!important; width: 35% !important ;font-size:12px;"><i
+                                style="margin-left: 1.5em !important;width: 100% !important;background-color: #480082!important; width: 35% !important ;font-size:14px;"><i
                                     class="fas fa-play "></i>
                             </a>
 
-                            <?php echo '<a class="button btn btn-success text-center product_type_simple" style="margin-left: .5em !important; width: 35% !important;font-size:12px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
+                            <?php echo '<a class="button btn btn-success text-center product_type_simple" style="margin-left: 1.2em !important; width: 35% !important;font-size:14px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
                                         </a>';
                                                 ?>
                         </div>
                         <div class="col-6 text-right">
                             <h4 class="woocommerce-loop-product__title"
-                                style="padding-right: .5em;color: #000000;font-weight: 700!important;font-family: 'PT Sans';">
+                                style="padding-right: 1.5em;color: #000000;font-weight: 700!important;font-family: 'PT Sans';">
                                 £<?php echo $price ?></h4>
                         </div>
                     </div>

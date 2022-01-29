@@ -6,39 +6,56 @@
 global $wp_query;
 get_header();     
 $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_userdata(intval($author));
-$author_id = get_the_author_meta('ID');
+$author_id = $_GET["id"];
+$author_id = intval($author_id);
+$author_data = get_userdata($author_id);
+$author_nicename = get_user_meta($author_id, 'user_nicename' );
+$author_name = $author_data->display_name;
+//var_dump($author_nicename);
+//var_dump($author_data);
 
 $id = get_the_ID();
 
-
-
-$profile_query = new WP_Query(
+/*$this_user_id = $_GET['id'];
+$this_user_id = intval($this_user_id);*/
+$profile_query = new $wp_query(
     array(
         'post_type' => "profiles",
         'author' => $author_id,
 
     ));
+
+
+global $post;
+
 $profile_data = wp_list_pluck($profile_query, 'ID');
+
+$post_author = intval($profile_data["post_author"]);
 $profile_id = $profile_data["post"];
 
-if ($post->post_author == $current_user->ID) {
+
+
+if ($author_id == get_current_user_id()) {
     if($profile_id) {?>
     <div class="container admincont text-center">
         <div class="btn-group">
-            <button type="button" class="btn btn-lg"><a href="/edit-profile/?id=<?php echo $profile_id ?>" role="button">Edit Profile</a></button>
-            <button type="button" class="btn btn-lg"> <a href="/add-rehearsal" role="button">Add Rehearsal</a></button>
-            <button type="button" class="btn btn-lg"> <a href="/add-review" role="button">Add Review</a></button>
+            <button type="button" class="btn btn-lg"><a href="<?php echo WP_HOME ?>edit-profile/?id=<?php echo $profile_id ?>" role="button">Edit Profile</a></button>
+            <button type="button" class="btn btn-lg"> <a href="<?php echo WP_HOME ?>add-rehearsal" role="button">Add Rehearsal</a></button>
+            <button type="button" class="btn btn-lg"> <a href="<?php echo WP_HOME ?>add-review" role="button">Add Review</a></button>
         </div>
     </div>
 
 <?php
     }
-    else {
-        echo '<h4>Please add your profile data. Your potential customers are unable to contact you. <a href="add-profile" class="btn">Add now</a></h4>';
-    }
-    }
+}
+
 if($profile_id == null) {
-    echo '<div class="container" style="margin-top: 50px!important;background-color: #fff;padding: 50px!important;"><h2 style="color:#000000!important;font-size:22px;font-weight: 700;">Sorry there is no profile data for this Dance Captain &nbsp;<i style="font-size:26px;" class="far fa-frown"></i></h2></div>';
+
+    echo '<div class="container" style="margin-top: 50px!important;background-color: #fff;padding: 50px!important;">';
+    if($author_id == get_current_user_id()){
+        echo '<p style="color:#000000!important;font-family: PT Sans,sans-serif;font-weight:700;">'.$author_name.', please add your profile information <a style="color:deeppink!important;" href="'.WP_HOME.'add-profile">here ...</a></p>';
+    }
+echo '<h2 style="color:#000000!important;font-size:22px;font-weight: 700;">Sorry,&nbsp;'. $author_name .'&nbsp;hasn\'t added any profile information &nbsp<i style="font-size:26px;" class="far fa-frown"></i></h2></div>';
 }
          if(have_posts()) :
 ?>
@@ -129,10 +146,10 @@ if( !empty( $image ) ): ?>
                                         'key' => 're_days',
                                         'value'=>1,
                                        'compare'=> '!='))));
-                             if(!have_posts()) {
+                             if(! $rehearsals_query->have_posts()) {
                                  echo '<h2 style="font-size:22px;font-weight: 700;">Sorry there are no rehearsals scheduled by this Dance Captain &nbsp;<i style="font-size:26px;" class="far fa-frown"></i></h2>';
                              }
-                                   if(have_posts()) :
+                                   if($rehearsals_query->have_posts()) :
                                    
                                         while($rehearsals_query -> have_posts()) :
                                             $rehearsals_query->the_post();
@@ -183,9 +200,9 @@ if( !empty( $image ) ): ?>
            </div>
          </div>    
            <div class="delcont text-center">
-                                        <?php if ($post->post_author == $current_user->ID) { 
+                                        <?php if ($post->post_author == strval($current_user->ID)) {
                                                     echo '<a style="width:49%;background-color:rgb(246,235,255) ;" class="btn float-left text-center" role="button" onclick="return ConfirmDelete(this.href)"
-                                            href="' .get_delete_post_link($post->ID).'" title="Delete this rehearsal?"><i class="fa-solid fa-trash-can" style="color: red;"></i></a>
+                                            href="'.get_delete_post_link($post->ID).'" title="Delete this rehearsal?"><i class="fa-solid fa-trash-can" style="color: red;"></i></a>
                                             <a style="width:49%;border-radius: 0!important;border:0!important;" class="btn btn-info float-left text-center" href="/edit-rehearsal/?id='. $post->ID .'" title="Edit this rehearsal?"><i style="color:#fff" class="fas fa-edit"></i></a>';}?>
                                     </div>
                                       </div>
@@ -542,7 +559,7 @@ endwhile;
             <div class="col-xl-10 col-lg-10 col-sm-12 col-md-12 offset-lg-1 offset-xl-1">
                 <div class="jumb revjumb jumbotron ">
                     <div class="innerjumbo">
- <h1> Reviews for the Dance Captain: <span class="dcname"><?php echo get_the_author_meta('display_name'); ?></span></h1> <hr>
+ <h2 class="text-center"> Reviews for the Dance Captain: <span class="dcname"><?php echo get_the_author_meta('display_name', $author_id); ?></span></h2> <hr>
        
        
         <?php
@@ -550,19 +567,19 @@ endwhile;
 $reviews_query = new WP_Query(
      array(
          'post_type' => "reviews",
-      'author' => $author_id,
+      'author' => intval($author_id),
       'posts_per_page' => 3
          ));
-         if(!have_posts()) {
+         if(! $reviews_query->have_posts()) {
 
                  echo '<h2 style="font-size:22px;font-weight: 700;">Sorry there are no reviews for this Dance Captain &nbsp;<i style="font-size:26px;" class="far fa-frown"></i></h2>';
 
          }
-         if(have_posts()) :?>
+         if($reviews_query->have_posts()) :?>
           <div class="row">
       <?php       while($reviews_query -> have_posts()) :
                $reviews_query ->the_post();?>
-       
+
             
 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
   <div class="cardwrapper">
@@ -603,7 +620,7 @@ $reviews_query = new WP_Query(
    </div>
 
                  
-<?php  else: echo 'No reviews to display.';  endif; 
+<?php endif;
     /* Restore original Post Data */
     wp_reset_postdata(); 
   

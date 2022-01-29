@@ -52,7 +52,7 @@ get_currentuserinfo();
                             global $user_ID,
                                    $user_identity;
                             if (!$user_ID) { ?>
-                        <a class="btn btn-watch loginbtn" href="/login/">Log in </a></div>
+                        <a class="btn btn-watch loginbtn" href="<?php echo WP_HOME ?>login/">Log in </a></div>
 
                         </div>
                         <?php }
@@ -61,9 +61,10 @@ get_currentuserinfo();
                      
                             <p class="text-white" style="display: inline-block;float:right;padding-right: 50px;font-size:18px;">  Hi <?php
                                 //print_r($current_user);
+                                $user_id = get_current_user_id();
                                 echo $current_user->user_login; ?>
-                                  <a title="Your profile page" href="<?php echo home_url() . '/dance-captain/' . get_the_author_meta( 'user_login', wp_get_current_user()->ID ); ?>" >
-                                      <img src="/wp-content/uploads/2021/10/dancer-2-e1622667179728-1.png" alt="Blue dancer silhouette graphical icon" style="width:30px;"></a>
+                                  <a title="Your profile page" href="<?php echo home_url() . '/dance-captain/' . get_the_author_meta( 'user_nicename', $user_id ).'/?id='.$user_id; ?>" >
+                                      <img src="<?php echo WP_HOME ?>wp-content/uploads/2021/10/dancer-2-e1622667179728-1.png" alt="Blue dancer silhouette graphical icon" style="width:30px;"></a>
                               <?php
 
                               if($count < 1)
@@ -78,10 +79,8 @@ get_currentuserinfo();
 
                               <?php } ?>
                                 <span style="margin-left: 6px;margin-right: 6px;color:#fff;">|</span>
-        <!--                        <form method="post" action="/logout">
-                                    <?php /*wp_nonce_field( 'name_of_my_action', 'name_of_nonce_field' ); */?>
-                                </form>-->
-                                <a style="font-size: 12px;" href="https://panachedancefitness.com/logout/?action=logout">Logout?</a>
+
+                                <a style="font-size: 12px;" href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
                             </p>
                           <?php } ?>
                           </li>

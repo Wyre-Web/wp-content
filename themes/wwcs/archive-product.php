@@ -171,11 +171,11 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                                         <hr style=" border-top: 1px solid purple!important;" >
                                         <div class="row">
 
-                                            <div class="col-md-12 text-center" style="padding-right:35px;position:absolute;bottom:0;">
-                                                <h2 class="woocommerce-loop-product__title float-right" style="width:20%;color: #000000;">£<?php echo $price ?></h2>
-                                                <a href="<?php echo $link ?>" class="button product_type_simple text-center" style="margin-left:3px;background-color: #480082!important;width:33%!important;float:left;font-size:12px;" ><i class="fas fa-play "></i>
+                                            <div class="col-md-12 text-center" style="padding-right:15px;position:absolute;bottom:0;">
+                                                <h4 class="woocommerce-loop-product__title float-right" style="width:35%;color: #000000;font-weight: 700!important;font-family: 'PT Sans';">£<?php echo $price ?></h4>
+                                                <a href="<?php echo $link ?>" class="button product_type_simple text-center" style="margin-left:3px;background-color: #480082!important;width:30%!important;float:left;padding:6px!important;font-size:12px;" ><i class="fas fa-play "></i>
                                                 </a>
-                                                <?php echo '<a class="button btn btn-success text-center product_type_simple" style="width:33%!important;float:left;margin-left: 3px;font-size:12px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
+                                                <?php echo '<a class="button btn btn-success text-center product_type_simple" style="width:30%!important;float:left;margin-left: 3px;font-size:12px;padding:6px!important;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
                                         </a>';
                                                 ?>
                                             </div>

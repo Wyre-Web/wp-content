@@ -183,12 +183,13 @@ function wws_return_location_data() //: array
             }
             //var_dump($addresses);
             foreach ($addresses as $venue) { //loop through $addresses array and add each instance to $venue
+                $captain_id = get_the_author_meta('ID');
                 $captain = get_the_author_meta('user_nicename');
                 $post_id = $post->ID;
                 $post_title = get_the_title();
                 $address = $venue[0]['address']; //declare address as variable
                 $post_code = $venue[0]['post_code'];
-                $url = '/dance-captain/'. $captain .'/';
+                $url = WP_HOME.'dance-captain/'. $captain .'/?id='.$captain_id;
                echo '<li><a href="'. $url .'"><span style="color:#f50a99;">'. $post_title . '</span> &nbsp;- ' . $address .',&nbsp;'. $post_code .'</a></li>';
             }
         }

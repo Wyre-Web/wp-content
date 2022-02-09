@@ -41,7 +41,7 @@
         <div class="col-12 text-center">
 
             <p class="m">
-                Copyright © 2021 | Developed by
+                Copyright © 2022 | Developed by
                 <a class="continue" href="https://wyrewebsolutions.co.uk">WYRE WEB SOLUTIONS</a></p>
         </div>
     </div>

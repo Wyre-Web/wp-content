@@ -40,10 +40,10 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
             <div class="form-group" id="customer_details">
                 <div class="row">
                     <div class="col-7">
-                        <div id="check-wrap" class="jumbotron" style="padding:1rem!important;background-color: #fff;position:relative;">
-                            <input type="button" style="position:absolute;bottom:0;left: 25px;border-bottom: 3px solid #fff!important;color:#fff!important;background-color: #5f75d9!important;padding:15px!important;" value="View address details">
+                    <!--    <div id="check-wrap" class="jumbotron" style="padding:1rem!important;background-color: #fff;position:relative;">
+                            <input type="button" style="position:absolute;bottom:0;left: 25px;border-bottom: 3px solid #fff!important;color:#fff!important;background-color: #5f75d9!important;padding:15px!important;" value="View address details">   </div>-->
                         <?php do_action( 'woocommerce_checkout_billing' ); ?>
-                        </div>
+                     
                     </div>
                     <div class="col-5 pt-10">
                         <?php do_action( 'woocommerce_checkout_before_order_review_heading' ); ?>

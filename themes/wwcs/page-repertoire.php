@@ -67,14 +67,15 @@ foreach($wc_products as $product_id) {
 
      if(in_array($product_id, $cust_history)) { ?>
          <div class="col-md-3 text-center" style="margin-bottom:10px;">
-          <div class="inner-prod text-left" style="position:relative;">
+          <div class="inner-prod text-left" style="position:relative;min-height:19em;">
               <div class="w-100" style="position:relative;min-height:20px;">
                 <?php
-              echo '<span class="wishlist-title float-right">' . esc_attr__("Add to favourites", "text-domain") . '</span><a class="wishlist-toggle" style="position:absolute;right:0;padding-right:5px!important;margin:0!important;" data-product="' . esc_attr($product_id) . '" href="#" title="' . esc_attr__("Add to wishlist", "text-domain") . '"><i style="font-size:20px;color:#fff;opacity: 0.6;" class="far fa-heart"></i></a>';
+              echo '<span class="wishlist-title float-right">' . esc_attr__("Add to favourites", "text-domain") . '</span><a class="wishlist-toggle" style="position:absolute;right:0;padding-right:5px!important;margin:0!important;" data-product="' . esc_attr($product_id) . '" href="#" title="' . esc_attr__("Add to wishlist", "text-domain") . '"><i style="font-size:20px;color:#2b2b2b;opacity: 0.6;" class="far fa-heart"></i></a>';
                ?>
               </div>
-              <h5 style="color:rgba(255,255,255,0.8);padding-left:10px;padding-top:10px"><?php echo $title ?></h5>
-            <div class="prod-fields text-left" style="padding-left:10px;">
+              <h5 style="color:#2b2b2b;padding-left:10px;padding-top:10px"><?php echo $title ?></h5>
+
+            <div class="prod-fields text-left" style="padding-left:10px;border-top: 2px solid #0286be;padding-top: .5em;">
                 <?php
                 foreach ($tags as $tag) {
                     echo '<p style="font-size: 14px!important;color:rgba(255,255,255,0.8)">'.$tag->name.'</p>';

@@ -12,7 +12,11 @@
 <div id="post-<?php the_ID(); ?>" class="container tdbox text-center">
     
  <div id="datetimeset"><h1 id="datetime"></h1 class="h1td"><br><h2 class="h2td">TILL OUR NEXT TRAINING DAY!</h2></div>
- 
+ <h3 class="tda"><?php 
+     $orgDate = get_field('td_date_time');   
+     $newDate = date("d-m-Y  g:i a
+     ", strtotime($orgDate));  
+     echo '<span><i class="fa-solid fa-calendar-days"></i></span>' .$newDate;   ?></h3>
                 <h4 class="h4td"><?php the_field('td_description');?></h4>
                    <?php $location = get_field('re_location');
                                                     if( $location ) {
@@ -32,7 +36,7 @@
                                                         $address_second = trim( $address_second, '' );
                                                 
                                                 // Display HTML.
-                                                echo $address_first . '<br>' . $address_second . '<br>';}
+                                                echo '<i class="fa-solid fa-location-dot"></i>' . $address_first . '<br>' . $address_second . '<br>';}
                                                 if (get_field('type') == "virtually")  {
                                                     echo '<h5 class="tdh5">This Training Day will be hosted ' . get_field('type') . '</h5><br>';
                                                     }?>

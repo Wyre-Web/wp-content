@@ -5,17 +5,19 @@
 $img = get_field('ev_picture');
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-<div class="container jumbotron events">
+    <div class="container eventjumb jumbotron events">
 
-<div class="container pesingle">
-    <div class="row">
-    	<div class="col-12">
- <h1><?php the_title();?></h1><br>
- </div></div>
-  <div class="row">
-    	<div class="col-4">
-    <img src="<?php echo esc_url($img['url']); ?>"/>
-    <br><h4><?php
+        <div class="container pesingle">
+            <div class="row">
+                <div class="col-12">
+                    <h1><?php the_title();?></h1><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="<?php echo esc_url($img['url']); ?>" />
+                    <br>
+                    <h4><?php
 $location = get_field('event_location');
 if( $location ) {
 
@@ -38,35 +40,35 @@ if( $location ) {
     // Trim trailing comma.
     $address_second = trim( $address_second, '' );
 
-   echo '<br><p>' . $address_first . '<br>' . $address_second . '</p><br>';
+   echo '<br><i class="fa-solid fa-location-dot"></i><p>' . $address_first . '<br>' . $address_second . '</p><br>';
 }?>
-    </div>
-     	<div class="col-8">
-     	   <h4 class="edt"><?php the_field('ev_date')?></h4>
-     	   <br>
-     	    <h4> 	<?php the_field('ev_description');?></h4><br>
+                </div>
+                <div class="col-4">
+                    <h4 class="edt"><i class="fa-solid fa-calendar-days"></i><?php the_field('ev_date')?></h4>
+                    <br>
+                    <h4> <?php the_field('ev_description');?></h4><br>
+                </div>
 
 
-   <?php  if (get_field('first_class')){ 
-    	  echo '<h4>Performance Times</h4><br><ul><li>' . get_field('first_class') . '</li>';
+                <div class="col-4">
+
+                    <?php  if (get_field('first_class')){ 
+    	  echo '<h4><i class="fa-solid fa-clock"></i> Performance Times</h4><br><ul><li>' . get_field('first_class') . '</li>';
     	  } ?>
-    	   <?php if (get_field('second_class')){ 
+                    <?php if (get_field('second_class')){ 
     	  echo '<li>' . get_field('second_class') . '</li>';
     	  } ?>
-    	      <?php if (get_field('third_class')){ 
-    	  echo 'li>' . get_field('third_class') . '</li>';
+                    <?php if (get_field('third_class')){ 
+    	  echo '<li>' . get_field('third_class') . '</li>';
     	  } ?>
-    	     <?php if (get_field('fourth_class')){ 
+                    <?php if (get_field('fourth_class')){ 
     	  echo '<li>' . get_field('fourth_class') . '</li>';
-    	  } ?> 
-    	   <?php if (get_field('fifth_class')){ 
+    	  } ?>
+                    <?php if (get_field('fifth_class')){ 
     	  echo '<li>' . get_field('fifth_class') . '</li>';
     	  }  ?> </ul>
-    	    </div>
-               </div>   
-</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </article>
-
-                
-        
-        

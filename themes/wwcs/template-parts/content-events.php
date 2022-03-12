@@ -16,7 +16,18 @@ $img = get_field('ev_picture');
             <div class="row">
                 <div class="col-4">
                     <img src="<?php echo esc_url($img['url']); ?>" />
+                  
+                </div>
+                <div class="col-4">
+                    <h4 class="edt"><i class="fa-solid fa-calendar-days"></i><?php the_field('ev_date')?></h4>
                     <br>
+                    <h4> <?php the_field('ev_description');?></h4><br>
+                  
+                </div>
+
+
+                <div class="col-4">
+                <br>
                     <h4><?php
 $location = get_field('event_location');
 if( $location ) {
@@ -42,20 +53,8 @@ if( $location ) {
 
    echo '<br><p><i class="fa-solid fa-location-dot"></i>' . $address_first . '<br>' . $address_second . '</p><br>';
 }?>
-                </div>
-                <div class="col-4">
-                    <h4 class="edt"><i class="fa-solid fa-calendar-days"></i><?php the_field('ev_date')?></h4>
-                    <br>
-                    <h4> <?php the_field('ev_description');?></h4><br>
-                    <?php  if (get_field('book_event')){ 	 ?>
-            <a href="<?php echo the_field('book_event'); ?>">Book Event</a><?php } ?>
-            <?php  if (get_field('book_event')){ 	 ?>
-            <a href="<?php echo the_field('other_event_link'); ?>">Other Info</a><?php } ?>
-                </div>
 
-
-                <div class="col-4">
-
+<ul>
                     <?php  if (get_field('first_class')){ 
     	  echo '<h4><i class="fa-solid fa-clock"></i> Performance Times</h4><br><ul><li>' . get_field('first_class') . '</li>';
     	  } ?>
@@ -71,6 +70,10 @@ if( $location ) {
                     <?php if (get_field('fifth_class')){ 
     	  echo '<li>' . get_field('fifth_class') . '</li>';
     	  }  ?> </ul>
+            <?php  if (get_field('book_event')){ 	 ?>
+            <a href="<?php echo the_field('book_event'); ?>">Book Event</a><?php } ?><br>
+            <?php  if (get_field('other_event_link')){ 	 ?>
+            <a href="<?php echo the_field('other_event_link'); ?>">Other Info</a><?php } ?>
                 </div>
             </div>
         </div>

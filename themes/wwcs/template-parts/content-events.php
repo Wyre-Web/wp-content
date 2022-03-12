@@ -40,13 +40,17 @@ if( $location ) {
     // Trim trailing comma.
     $address_second = trim( $address_second, '' );
 
-   echo '<br><i class="fa-solid fa-location-dot"></i><p>' . $address_first . '<br>' . $address_second . '</p><br>';
+   echo '<br><p><i class="fa-solid fa-location-dot"></i>' . $address_first . '<br>' . $address_second . '</p><br>';
 }?>
                 </div>
                 <div class="col-4">
                     <h4 class="edt"><i class="fa-solid fa-calendar-days"></i><?php the_field('ev_date')?></h4>
                     <br>
                     <h4> <?php the_field('ev_description');?></h4><br>
+                    <?php  if (get_field('book_event')){ 	 ?>
+            <a href="<?php echo the_field('book_event'); ?>">Book Event</a><?php } ?>
+            <?php  if (get_field('book_event')){ 	 ?>
+            <a href="<?php echo the_field('other_event_link'); ?>">Other Info</a><?php } ?>
                 </div>
 
 

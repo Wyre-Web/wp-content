@@ -54,7 +54,7 @@ if( $location ) {
    echo '<br><p><i class="fa-solid fa-location-dot"></i>' . $address_first . '<br>' . $address_second . '</p><br>';
 }?>
 
-<ul>
+
                     <?php  if (get_field('first_class')){ 
     	  echo '<h4><i class="fa-solid fa-clock"></i> Performance Times</h4><br><ul><li>' . get_field('first_class') . '</li>';
     	  } ?>

@@ -10,15 +10,15 @@ $img = get_field('ev_picture');
         <div class="container pesingle">
             <div class="row">
                 <div class="col-12">
-                    <h1><?php the_title();?></h1><br>
+                    <h1 id="event-title"><?php the_title();?></h1><br>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <img src="<?php echo esc_url($img['url']); ?>" />
                   
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <h4 class="edt"><i class="fa-solid fa-calendar-days"></i><?php the_field('ev_date')?></h4>
                     <br>
                     <h4> <?php the_field('ev_description');?></h4><br>
@@ -26,7 +26,7 @@ $img = get_field('ev_picture');
                 </div>
 
 
-                <div class="col-4">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
              
                     <h4><?php
 $location = get_field('event_location');

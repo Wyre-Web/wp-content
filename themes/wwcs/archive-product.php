@@ -28,7 +28,10 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
         'post_type' => 'product',
         'status' => 'publish',
         'limit' => -1,
-
+  
+   'order_by'       => 'ID',
+    'order'          => 'desc
+    '
     );
 
     $product_data = wc_get_products($args); // Run the $arg through WC_Product_Query (just like WP_Query)
@@ -85,13 +88,27 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-3">
 
 
                     <?php echo do_shortcode('[pan_product_search_filter]') ?>
                 </div>
+          
+                  <div class="col-md-3">
+                  <div class="dropdown">
+                      <button type="button" style="width:95%!important;" id="chor_filter" class="btn btn-sort-filter dropdown-toggle" data-toggle="dropdown">
+                          A -Z
+                      </button>
+                      <div class="dropdown-menu">
+                          <?php echo do_shortcode('[sortit]') ?>
+                      </div>
+                  </div>
+              </div>
+           
+              
 
 
+</div>
             </div>
             <hr>
             <div class="row" style="margin-left:0!important;margin-right:0!important;">
@@ -187,7 +204,8 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                         <p style="margin-left: .8em;padding-bottom: 0;margin-bottom: 0;"><img src="/wp-content/uploads/2022/02/note-16.png"><a style="font-size:15px!important;font-weight: 700!important;margin-left: .5em;color:black !important;font-family: PT Sans!important;" href="<?php echo $itunes; ?>">Listen on iTunes</a></p>
                         </div>  </div><?php } ?>
                         <hr style=" border-top: 1px solid purple!important;">
-                        <div class="row ">
+                        <div class="row 
+                        ">
 
                            
                             <div class="col-6 text-left">

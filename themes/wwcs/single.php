@@ -14,7 +14,7 @@ $current_user = wp_get_current_user(); // grab user info  from the database
 if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user_can('administrator')) :
 
 ?>
-<div class="container-fluid">
+<div class="jumbotron">
 	
 	    	<?php while ( have_posts() ) : the_post(); 
 		

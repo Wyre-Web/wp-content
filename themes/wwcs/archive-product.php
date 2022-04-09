@@ -30,8 +30,7 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
         'limit' => -1,
   
    'order_by'       => 'ID',
-    'order'          => 'desc
-    '
+    'order'          => 'DESC'
     );
 
     $product_data = wc_get_products($args); // Run the $arg through WC_Product_Query (just like WP_Query)
@@ -94,16 +93,7 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                     <?php echo do_shortcode('[pan_product_search_filter]') ?>
                 </div>
           
-                  <div class="col-md-3">
-                  <div class="dropdown">
-                      <button type="button" style="width:95%!important;" id="chor_filter" class="btn btn-sort-filter dropdown-toggle" data-toggle="dropdown">
-                          A -Z
-                      </button>
-                      <div class="dropdown-menu">
-                          <?php echo do_shortcode('[sortit]') ?>
-                      </div>
-                  </div>
-              </div>
+                
            
               
 

@@ -6,13 +6,14 @@
  *
  * @package MoZone
  */
-get_header();
 $current_user = wp_get_current_user(); // grab user info  from the database
 
 if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user_can('administrator')) :
+get_header();
 ?>
-
-<div class="container-fluid">
+<div class="container-fluid wsfront">
+		
+       <br> <h1 class="entry-title text-center"><img class="lstar" src="/wp-content/uploads/2021/10/leftstar.png">EVENTS<img class="rstar" src="/wp-content/uploads/2021/10/star1.png"></h1>
         	<?php if ( have_posts() ) : ?>
         
         	<?php
@@ -33,13 +34,9 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
 
 		else :
 
-			get_template_part( 'template-parts/content', 'none' );
-
+		echo 
 		endif;
-wp_reset_postdata();
 
-	endif; ?>
+    ?>
 </div>
-
-<?php get_footer();
-
+<?php endif; get_footer();?>

@@ -6,6 +6,10 @@
  *
  * @package MoZone
  */
+get_header();
+$current_user = wp_get_current_user(); // grab user info  from the database
+
+if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user_can('administrator')) :
 ?>
 
 <div class="container-fluid">
@@ -34,8 +38,8 @@
 		endif;
 wp_reset_postdata();
 
-    ?>
+	endif; ?>
 </div>
 
-
+<?php get_footer();
 

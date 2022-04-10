@@ -11,8 +11,9 @@
 global $current_user, $wp_roles;
 get_currentuserinfo();
 ?>
-<!doctype html>
+
 <html <?php language_attributes(); ?>>
+<!DOCTYPE html>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,20 +31,23 @@ get_currentuserinfo();
 
 
 <body>
-<?php wp_body_open(); ?>
+<?php //wp_body_open(); ?>
 <div id="page" class="site">
 <!-- <a class="sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'wwcs' ); ?></a> -->
 
 	<header id="masthead" class="site-header">
  <div class="container-fluid top-bar" style="margin:0;padding:0;">
 		      <div class="row">
-                  <div class="col-md-4 text-left">
+                  <div class="col-md-3 text-left">
                       <a class="navbar-brand" href="/"><img style="width:45%;" src="/wp-content/uploads/2021/09/panache_logo.png"></a>
                   </div>
-                  <div class="col-md-5 text-center" style="padding-top:1.5em;">
+                  <div class="col-md-5 text-left" style="padding-top:1.5em;">
                      <?php echo do_shortcode("[wws_return_location_data]") ?>
+                     </div>
+                     <div class="col-md-2 text-left" style="padding-top:1.5em;">
+                     <a href="/rehearsals" class="btn btn-info btn-md active online" role="button" aria-pressed="true">Online Rehearsals</a>
                   </div>
-		          <div class="col-md-3 pt-1 text-right dancer">
+		          <div class="col-md-2 pt-1 text-right dancer">
 
 
                       <ul class="navbar-nav">

@@ -3,7 +3,7 @@
 Plugin Name: WP-Optimize - Clean, Compress, Cache
 Plugin URI: https://getwpo.com
 Description: WP-Optimize makes your site fast and efficient. It cleans the database, compresses images and caches pages. Fast sites attract more traffic and users.
-Version: 3.2.1
+Version: 3.2.3
 Update URI: https://wordpress.org/plugins/wp-optimize/
 Author: David Anderson, Ruhani Rabin, Team Updraft
 Author URI: https://updraftplus.com
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) die('No direct access allowed');
 
 // Check to make sure if WP_Optimize is already call and returns.
 if (!class_exists('WP_Optimize')) :
-define('WPO_VERSION', '3.2.1');
+define('WPO_VERSION', '3.2.3');
 define('WPO_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('WPO_PLUGIN_MAIN_PATH', plugin_dir_path(__FILE__));
 define('WPO_PREMIUM_NOTIFICATION', false);
@@ -112,6 +112,8 @@ class WP_Optimize {
 	 * @return void
 	 */
 	public function detect_active_plugins_and_themes_updates($upgrader_object, $options) {
+		if (empty($options) || !isset($options['type'])) return;
+		
 		$should_purge_cache = false;
 		$skin = $upgrader_object->skin;
 		if ('plugin' === $options['type']) {
@@ -123,14 +125,14 @@ class WP_Optimize {
 			$active_theme = get_stylesheet();
 			$parent_theme = get_template();
 			// A theme is updated using the upload system
-			if ('install' === $options['action'] && 'update-theme' === $skin->options['overwrite']) {
+			if (isset($options['action']) && 'install' === $options['action'] && 'update-theme' === $skin->options['overwrite']) {
 				$updated_theme = $upgrader_object->result['destination_name'];
 				// Check if the theme is in use
 				if ($active_theme == $updated_theme || $parent_theme == $updated_theme) {
 					$should_purge_cache = true;
 				}
 			// A theme is updated using the classic update system
-			} elseif ('update' === $options['action'] && is_array($options['themes'])) {
+			} elseif (isset($options['action']) && 'update' === $options['action'] && isset($options['themes']) && is_array($options['themes'])) {
 				// Check if the theme is in use
 				if (in_array($active_theme, $options['themes']) || in_array($parent_theme, $options['themes'])) {
 					$should_purge_cache = true;
@@ -216,9 +218,9 @@ class WP_Optimize {
 	public function get_webp_instance() {
 		if (defined('WPO_USE_WEBP_CONVERSION') && true === WPO_USE_WEBP_CONVERSION) {
 			if (!class_exists('WP_Optimize_WebP')) {
-			include_once WPO_PLUGIN_MAIN_PATH . 'webp/class-wp-optimize-webp.php';
+				include_once WPO_PLUGIN_MAIN_PATH . 'webp/class-wp-optimize-webp.php';
 			}
-		return WP_Optimize_WebP::get_instance();
+			return WP_Optimize_WebP::get_instance();
 		}
 	}
 
@@ -845,6 +847,7 @@ class WP_Optimize {
 				"js" => __('JavaScript', 'wp-optimize').'<span class="menu-pill disabled hidden">'.__('Disabled', 'wp-optimize').'</span>',
 				"css" => __('CSS', 'wp-optimize').'<span class="menu-pill disabled hidden">'.__('Disabled', 'wp-optimize').'</span>',
 				"font" => __('Fonts', 'wp-optimize'),
+				"preload" => __('Preload', 'wp-optimize'),
 				"settings" => __('Settings', 'wp-optimize'),
 				"advanced" => __('Advanced', 'wp-optimize')
 			),
@@ -1809,18 +1812,19 @@ class WP_Optimize {
 	/**
 	 * Format Bytes Into KB/MB
 	 *
-	 * @param  mixed $bytes Number of bytes to be converted.
+	 * @param  mixed   $bytes    Number of bytes to be converted.
+	 * @param  integer $decimals the number of decimal digits
 	 * @return integer        return the correct format size.
 	 */
-	public function format_size($bytes) {
+	public function format_size($bytes, $decimals = 2) {
 		if (!is_numeric($bytes)) return __('N/A', 'wp-optimize');
 
 		if (1073741824 <= $bytes) {
-			$bytes = number_format($bytes / 1073741824, 2) . ' GB';
+			$bytes = number_format($bytes / 1073741824, $decimals) . ' GB';
 		} elseif (1048576 <= $bytes) {
-			$bytes = number_format($bytes / 1048576, 2) . ' MB';
+			$bytes = number_format($bytes / 1048576, $decimals) . ' MB';
 		} elseif (1024 <= $bytes) {
-			$bytes = number_format($bytes / 1024, 2) . ' KB';
+			$bytes = number_format($bytes / 1024, $decimals) . ' KB';
 		} elseif (1 < $bytes) {
 			$bytes = $bytes . ' bytes';
 		} elseif (1 == $bytes) {
@@ -2440,7 +2444,8 @@ class WP_Optimize {
 	 */
 	public function robots_txt($output) {
 		$upload_dir = wp_upload_dir();
-		$output .= "\nDisallow: " . str_replace(site_url(), '', $upload_dir['baseurl']) . "/wpo-plugins-tables-list.json\n";
+		$path = parse_url($upload_dir['baseurl']);
+		$output .= "\nDisallow: " . str_replace($path['scheme'].'://'.$path['host'], '', $upload_dir['baseurl']) . "/wpo-plugins-tables-list.json\n";
 		return $output;
 	}
 }
@@ -2466,6 +2471,10 @@ function wpo_activation_actions() {
 
 	WP_Optimize::get_gzip_compression()->restore();
 	WP_Optimize::get_browser_cache()->restore();
+
+	if (!class_exists('Updraft_Tasks_Activation')) require_once(WPO_PLUGIN_MAIN_PATH . 'vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php');
+	Updraft_Tasks_Activation::init_db();
+	Updraft_Tasks_Activation::reinstall_if_needed();
 
 	// run premium activation actions.
 	if (file_exists(WPO_PLUGIN_MAIN_PATH.'premium.php')) {

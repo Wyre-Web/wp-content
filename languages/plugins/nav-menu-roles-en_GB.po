@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Nav Menu Roles - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-29 17:10:30+0000\n"
+"PO-Revision-Date: 2022-04-01 11:25:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,15 +11,35 @@ msgstr ""
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - Nav Menu Roles - Stable (latest release)\n"
 
-#: inc/customizer.php:74
-msgid "Restrict menu item to minimum role"
-msgstr "Restrict menu item to minimum role"
+#: inc/customizer.php:91
+msgid "Target Roles"
+msgstr "Target Roles"
 
-#: nav-menu-roles.php:92
+#: inc/customizer.php:74
+msgid "Target Audience"
+msgstr "Target Audience"
+
+#: inc/class-nav-menu-roles.php:422
+msgid "Target role"
+msgstr "Target role"
+
+#: inc/class-nav-menu-roles.php:400
+msgid "Target audience"
+msgstr "Target audience"
+
+#: inc/class-nav-menu-roles.php:394 inc/customizer.php:68
+msgid "Hide"
+msgstr "Hide"
+
+#: inc/class-nav-menu-roles.php:389 inc/customizer.php:63
+msgid "Show"
+msgstr "Show"
+
+#: inc/class-nav-menu-roles.php:77
 msgid "Unserializing instances of this class is forbidden."
 msgstr "Unserialising instances of this class is forbidden."
 
-#: nav-menu-roles.php:83
+#: inc/class-nav-menu-roles.php:68
 msgid "Cloning this object is forbidden."
 msgstr "Cloning this object is forbidden."
 
@@ -31,20 +51,16 @@ msgstr "Edit"
 msgid "Edit menu item"
 msgstr "Edit menu item"
 
-#: nav-menu-roles.php:285
+#: inc/class-nav-menu-roles.php:294
 msgid "Donate"
 msgstr "Donate"
 
-#: inc/class-walker-nav-menu-edit-roles.php:189
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:186
+#: inc/class-walker-nav-menu-edit-roles.php:189
 msgid "Open link in a new tab"
 msgstr "Open link in a new tab"
 
-#: nav-menu-roles.php:393
-msgid "Restrict menu item to a minimum role"
-msgstr "Restrict menu item to a minimum role"
-
-#: nav-menu-roles.php:284
+#: inc/class-nav-menu-roles.php:293
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -64,98 +80,98 @@ msgstr "Hide custom menu items based on user roles."
 msgid "http://www.kathyisawesome.com/449/nav-menu-roles/"
 msgstr "http://www.kathyisawesome.com/449/nav-menu-roles/"
 
-#: nav-menu-roles.php:387 inc/customizer.php:69
+#: inc/class-nav-menu-roles.php:416 inc/customizer.php:86
 msgid "Everyone"
 msgstr "Everyone"
 
-#: nav-menu-roles.php:382 inc/customizer.php:65
+#: inc/class-nav-menu-roles.php:411 inc/customizer.php:82
 msgid "Logged Out Users"
 msgstr "Logged Out Users"
 
-#: nav-menu-roles.php:377 inc/customizer.php:61
+#: inc/class-nav-menu-roles.php:406 inc/customizer.php:78
 msgid "Logged In Users"
 msgstr "Logged In Users"
 
-#: nav-menu-roles.php:371 inc/customizer.php:57
+#: inc/class-nav-menu-roles.php:383 inc/customizer.php:59
 msgid "Display Mode"
 msgstr "Display Mode"
 
-#: nav-menu-roles.php:174
+#: inc/class-nav-menu-roles.php:161
 msgid "Import <strong>nav menu roles</strong> and other menu item meta skipped by the default importer"
 msgstr "Import <strong>nav menu roles</strong> and other menu item meta skipped by the default importer"
 
 #. Plugin Name of the plugin
-#: nav-menu-roles.php:174
+#: inc/class-nav-menu-roles.php:161
 msgid "Nav Menu Roles"
 msgstr "Nav Menu Roles"
 
-#: inc/class-walker-nav-menu-edit-roles.php:258
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:252
+#: inc/class-walker-nav-menu-edit-roles.php:258
 msgid "Cancel"
 msgstr "Cancel"
 
-#: inc/class-walker-nav-menu-edit-roles.php:246
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:245
+#: inc/class-walker-nav-menu-edit-roles.php:246
 msgid "Remove"
 msgstr "Remove"
 
-#: inc/class-walker-nav-menu-edit-roles.php:232
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:229
+#: inc/class-walker-nav-menu-edit-roles.php:232
 msgid "Original: %s"
 msgstr "Original: %s"
 
-#: inc/class-walker-nav-menu-edit-roles.php:225
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:222
+#: inc/class-walker-nav-menu-edit-roles.php:225
 msgid "To the top"
 msgstr "To the top"
 
-#: inc/class-walker-nav-menu-edit-roles.php:222
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:219
+#: inc/class-walker-nav-menu-edit-roles.php:222
 msgid "Down one"
 msgstr "Down one"
 
-#: inc/class-walker-nav-menu-edit-roles.php:221
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:218
+#: inc/class-walker-nav-menu-edit-roles.php:221
 msgid "Up one"
 msgstr "Up one"
 
-#: inc/class-walker-nav-menu-edit-roles.php:220
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:217
+#: inc/class-walker-nav-menu-edit-roles.php:220
 msgid "Move"
 msgstr "Move"
 
-#: inc/class-walker-nav-menu-edit-roles.php:208
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:205
+#: inc/class-walker-nav-menu-edit-roles.php:208
 msgid "The description will be displayed in the menu if the current theme supports it."
 msgstr "The description will be displayed in the menu if the current theme supports it."
 
-#: inc/class-walker-nav-menu-edit-roles.php:206
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:203
+#: inc/class-walker-nav-menu-edit-roles.php:206
 msgid "Description"
 msgstr "Description"
 
-#: inc/class-walker-nav-menu-edit-roles.php:200
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:197
+#: inc/class-walker-nav-menu-edit-roles.php:200
 msgid "Link Relationship (XFN)"
 msgstr "Link Relationship (XFN)"
 
-#: inc/class-walker-nav-menu-edit-roles.php:194
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:191
+#: inc/class-walker-nav-menu-edit-roles.php:194
 msgid "CSS Classes (optional)"
 msgstr "CSS Classes (optional)"
 
-#: inc/class-walker-nav-menu-edit-roles.php:182
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:179
+#: inc/class-walker-nav-menu-edit-roles.php:182
 msgid "Title Attribute"
 msgstr "Title Attribute"
 
-#: inc/class-walker-nav-menu-edit-roles.php:176
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:173
+#: inc/class-walker-nav-menu-edit-roles.php:176
 msgid "Navigation Label"
 msgstr "Navigation Label"
 
-#: inc/class-walker-nav-menu-edit-roles.php:169
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:166
+#: inc/class-walker-nav-menu-edit-roles.php:169
 msgid "URL"
 msgstr "URL"
 
@@ -164,30 +180,30 @@ msgstr "URL"
 msgid "Edit Menu Item"
 msgstr "Edit Menu Item"
 
-#: inc/class-walker-nav-menu-edit-roles.php:156
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:151
+#: inc/class-walker-nav-menu-edit-roles.php:156
 msgid "Move down"
 msgstr "Move down"
 
-#: inc/class-walker-nav-menu-edit-roles.php:143
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:136
+#: inc/class-walker-nav-menu-edit-roles.php:143
 msgid "Move up"
 msgstr "Move up"
 
-#: inc/class-walker-nav-menu-edit-roles.php:128
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:119
+#: inc/class-walker-nav-menu-edit-roles.php:128
 msgid "sub item"
 msgstr "sub item"
 
 #. translators: %s: title of menu item in draft status
-#: inc/class-walker-nav-menu-edit-roles.php:113
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:105
+#: inc/class-walker-nav-menu-edit-roles.php:113
 msgid "%s (Pending)"
 msgstr "%s (Pending)"
 
 #. translators: %s: title of menu item which is invalid
-#: inc/class-walker-nav-menu-edit-roles.php:109
 #: inc/class-walker-nav-menu-edit-roles-4.5.php:101
+#: inc/class-walker-nav-menu-edit-roles.php:109
 msgid "%s (Invalid)"
 msgstr "%s (Invalid)"
 

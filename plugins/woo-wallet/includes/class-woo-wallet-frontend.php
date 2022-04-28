@@ -109,7 +109,7 @@ if (!class_exists('Woo_Wallet_Frontend')) {
         /**
          * Add a new item to a menu
          * @param string $menu
-         * @param array $args
+         * @param object $args
          * @return string
          */
         public function add_wallet_nav_menu($menu, $args) {
@@ -230,6 +230,9 @@ if (!class_exists('Woo_Wallet_Frontend')) {
          * @return array
          */
         public function woo_wallet_menu_items($items) {
+            if(is_wallet_account_locked()){
+                return $items;
+            }
             unset($items['edit-account']);
             unset($items['customer-logout']);
             $items['woo-wallet'] = apply_filters('woo_wallet_account_menu_title', __('My Wallet', 'woo-wallet'));
@@ -265,7 +268,7 @@ if (!class_exists('Woo_Wallet_Frontend')) {
          */
         public function woo_wallet_frontend_loaded() {
             // reset partial payment session
-            if (!is_ajax()) {
+            if (!wp_doing_ajax()) {
                 update_wallet_partial_payment_session();
             }
             /**
@@ -622,6 +625,9 @@ if (!class_exists('Woo_Wallet_Frontend')) {
          */
         public function display_cashback() {
             $product = wc_get_product(get_the_ID());
+            if(!$product){
+                return;
+            }
             if($product->has_child()){
                 $product = wc_get_product(current($product->get_children()));
             }
@@ -633,10 +639,11 @@ if (!class_exists('Woo_Wallet_Frontend')) {
             }
             $cashback_amount = apply_filters('woo_wallet_product_cashback_amount', $cashback_amount, get_the_ID());
             if($cashback_amount){
-                echo '<span class="on-woo-wallet-cashback">' . wc_price($cashback_amount, woo_wallet_wc_price_args()) . __(' Cashback', 'woo-wallet') . '</span>';
+                $cashback_html = '<span class="on-woo-wallet-cashback">' . wc_price($cashback_amount, woo_wallet_wc_price_args()) . __(' Cashback', 'woo-wallet') . '</span>';
             } else{
-                echo '<span class="on-woo-wallet-cashback" style="display:none;"></span>';
+                $cashback_html = '<span class="on-woo-wallet-cashback" style="display:none;"></span>';
             }
+            echo apply_filters('woo_wallet_product_cashback_html', $cashback_html, get_the_ID());
         }
 
         /**
@@ -720,6 +727,8 @@ if (!class_exists('Woo_Wallet_Frontend')) {
                 echo '<div class="woocommerce">';
                 wc_get_template('myaccount/form-login.php');
                 echo '</div>';
+            } else if(is_wallet_account_locked()){
+                woo_wallet()->get_template('no-access.php');
             } else {
                 wp_enqueue_style('woo-wallet-payment-jquery-ui');
                 wp_enqueue_style('dashicons');

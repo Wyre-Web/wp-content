@@ -52,17 +52,12 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
 </header>
 
 
-<section class="container-fluid shop">
-
+<div class="container-fluid shop">
     <div class="row" style="margin-left: 0!important;">
-
-
         <div class="col-md-12">
-
             <?php wc_print_notices() ?>
             <div class="w-100 row"
                 style="padding-left:5%!important;padding-top:8px;!important;padding-bottom:2px!important;margin-bottom: 10px!important;">
-
                 <div class="col-md-2" style="margin-right:10px!important;">
                     <div class="dropdown">
                         <button style="width:95%;" type="button" id="price_filter"
@@ -88,22 +83,15 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                     </div>
                 </div>
                 <div class="col-md-3">
-
-
                     <?php echo do_shortcode('[pan_product_search_filter]') ?>
                 </div>
-          
-                
-           
-              
-
-
-</div>
             </div>
-            <hr>
-            <div class="row" style="margin-left:0!important;margin-right:0!important;">
-
-                <?php
+        </div>
+    </div>
+    <hr>
+    <div class="row" style="margin-left:0!important;margin-right:0!important;">
+       
+            <?php
                     // echo do_shortcode('[product_filter_tags]');
 
                     /*        while ($product_data->have_posts() ) {
@@ -124,20 +112,17 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
 
                         if(!in_array($product_id, $cust_history)) {
                             ?>
-                <div style="margin-bottom: 4px;padding-left:2.5%!important;" class="col-md-3 text-center"
-                    id="<?php echo $product_id ?>">
-
-                    <div class="inner-prod"
-                        style="width:90%!important;position:relative;min-height:26em !important;">
-
-                        <div class="w-100" style="min-height: 40px;">
-                            <?php
+            <div style="margin-bottom: 4px;padding-left:2.5%!important;" class="col-md-3 text-center"
+                id="<?php echo $product_id ?>">
+                <div class="inner-prod" style="width:90%!important;position:relative;min-height:26em !important;">
+                    <div class="w-100" style="min-height: 40px;">
+                        <?php
                                         if($fitness_track == true) { ?>
-                            <p class="float-left"
-                                style="color:#fff!important;font-size:12px;padding:3px;background-color: #000000;"><i
-                                    class="fas fa-burn"
-                                    style="color: #ffa600;font-size:15px!important;"></i>&nbsp;fitness track</p>
-                            <?php
+                        <p class="float-left"
+                            style="color:#fff!important;font-size:12px;padding:3px;background-color: #000000;"><i
+                                class="fas fa-burn" style="color: #ffa600;font-size:15px!important;"></i>&nbsp;fitness
+                            track</p>
+                        <?php
                                         }
                                         if (current_user_can('administrator') || current_user_can('site_owner') )  {
                                             echo '<a title="Edit '.$title.'?" style="font-size:15px;padding:2px;float:left;margin-left:5px;" href="/edit-panache-video-product/?id=' . $product_id . '" class="edit-prod"><i style="color:#000000;" class="fas fa-edit"></i></a>';
@@ -145,38 +130,34 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                                         echo '<span class="wishlist-title float-right">' . esc_attr__("Add $title to wishlist", "text-domain") . '</span><a class="wishlist-toggle" style="float: right!important;padding:5px!important" data-product="' . esc_attr($product_id) . '" href="#" title="' . esc_attr__("Add to wishlist", "text-domain") . '"><i style="font-size:20px;color:#4b4b4b;opacity: 0.8;" class="far fa-heart"></i></a>';
                                         ?>
 
-                        </div>
-                        <h3 style="color:#000000!important;font-weight: 700!important;min-height:2em;">
-                            <?php
-                                        if($title) {
-
-                                            echo $title.'<br />';
-
-                                        }
-
-                                        ?>
-                        </h3>
-                        <hr style="border-top: 1px solid purple;" />
+                    </div>
+                    <h3 style="color:#000000!important;font-weight: 700!important;min-height:2em;">
                         <?php
+                                        if($title) {
+                                            echo $title.'<br />';
+                                        }
+                                        ?>
+                    </h3>
+                    <hr style="border-top: 1px solid purple;" />
+                    <?php
                                     if($tags) { ?>
-                        <div class="prod-fields text-left">
-                            <div style="min-height:9em">
-                                <?php
+                    <div class="prod-fields text-left">
+                        <div style="min-height:9em">
+                            <?php
                                                 foreach ($tags as $tag) {
                                                     echo '<p style="font-size: 16px!important;color: #000;font-family: PT Sans!important;font-weight: 700!important;">'.$tag->name.'</p>';
 
                                                 }
                                                 ?>
-
-                            </div>
                         </div>
-                        <div class="row">
+                    </div>
+                    <div class="row">
                         <div class="col-12">
                             <p title="choreographer"
                                 style="margin-left: .8em;float:left!important;font-family: PT Sans!important;display: inline-block!important;font-size:15px!important;font-weight: 700!important;">
                                 <img src="https://panachedancefitness.com/wp-content/uploads/2021/10/dancer-2-e1622667179728-1-e1637930243563.png"
-                                    style="width:30px!important;float: left!important; margin-right: .5em;" alt="dancer icon">
-
+                                    style="width:30px!important;float: left!important; margin-right: .5em;"
+                                    alt="dancer icon">
                                 <?php
                                                 if($choreographers) {
                                                     foreach ($choreographers as $choreographer) {
@@ -185,52 +166,46 @@ if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user
                                                 }
                                                 ?>
                             </p>
-
-                            </div>
                         </div>
-                        <?php if ($itunes){?>
-                            <div class="row" >
-                                <div class="col-12 text-left">
-                        <p style="margin-left: .8em;padding-bottom: 0;margin-bottom: 0;"><img src="/wp-content/uploads/2022/02/note-16.png"><a style="font-size:15px!important;font-weight: 700!important;margin-left: .5em;color:black !important;font-family: PT Sans!important;" href="<?php echo $itunes; ?>">Listen on iTunes</a></p>
-                        </div>  </div><?php } ?>
-                        <hr style=" border-top: 1px solid purple!important;">
-                        <div class="row 
-                        ">
+                    </div>
+                    <?php if ($itunes){?>
+                    <div class="row">
+                        <div class="col-12 text-left">
+                            <p style="margin-left: .8em;padding-bottom: 0;margin-bottom: 0;"><img
+                                    src="/wp-content/uploads/2022/02/note-16.png"><a
+                                    style="font-size:15px!important;font-weight: 700!important;margin-left: .5em;color:black !important;font-family: PT Sans!important;"
+                                    href="<?php echo $itunes; ?>">Listen on iTunes</a></p>
+                        </div>
+                    </div><?php } ?>
+                    <hr style=" border-top: 1px solid purple!important;">
+                    <div class="row">
+                        <div class="col-6 text-left">
+                            <a href="<?php echo $link ?>" class="button btn product_type_simple text-center"
+                                style="margin-left: .5em !important;width: 100% !important;background-color: #480082!important; width: 35% !important ;font-size:12px;"><i
+                                    class="fas fa-play "></i>
+                            </a>
 
-                           
-                            <div class="col-6 text-left">
-                                <a href="<?php echo $link ?>" class="button btn product_type_simple text-center"
-                                    style="margin-left: .5em !important;width: 100% !important;background-color: #480082!important; width: 35% !important ;font-size:12px;"><i
-                                        class="fas fa-play "></i>
-                                </a>
-                            
-                                <?php echo '<a class="button btn btn-success text-center product_type_simple" style="margin-left: .5em !important; width: 35% !important;font-size:12px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
+                            <?php echo '<a class="button btn btn-success text-center product_type_simple" style="margin-left: .5em !important; width: 35% !important;font-size:12px;background-color: #00824d" href="?add-to-cart=' . $product_id .'"><i class="fas fa-shopping-basket"></i>
                                         </a>';
                                                 ?>
-                            </div>
-                            <div class="col-6 text-right" >
-                                <h4 class="woocommerce-loop-product__title"
-                                    style="padding-right: .5em;color: #000000;font-weight: 700!important;font-family: 'PT Sans';">
-                                    £<?php echo $price ?></h4>
-                            </div>
                         </div>
-                  
-
+                        <div class="col-6 text-right">
+                            <h4 class="woocommerce-loop-product__title"
+                                style="padding-right: .5em;color: #000000;font-weight: 700!important;font-family: 'PT Sans';">
+                                £<?php echo $price ?></h4>
+                        </div>
+                    </div>
                     <?php  }  ?>
                 </div>
-
             </div>
-
             <?php
 
-
-
-                        }
+                       }
                     }
                     ?>
-        </div>
+        
     </div>
-    </div>
+</div>
 
 </section>
 <?php

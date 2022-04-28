@@ -231,7 +231,11 @@ var WP_Optimize_Cache = function () {
 			}
 
 			if (el.is('input[type="checkbox"]')) {
-				settings[name].push(el.is(':checked') ? 1 : 0);
+				if ('value' == el.data('saveas')) {
+					if (el.is(':checked')) settings[name].push(el.val());
+				} else {
+					settings[name].push(el.is(':checked') ? 1 : 0);
+				}
 			} else if (el.is('textarea')) {
 				settings[name].push(el.val().split("\n"));
 			} else {
@@ -296,11 +300,17 @@ var WP_Optimize_Cache = function () {
 				$('.purge-cache').show();
 				// enable preload button
 				$('#wp_optimize_run_cache_preload').removeProp('disabled');
+				// disable minify preload
+				$('#wp_optimize_run_minify_preload').prop('disabled', true);
+				$('#minify-preload').show();
 			} else {
 				// hide purge button
 				$('.purge-cache').hide();
 				// disable preload button
 				$('#wp_optimize_run_cache_preload').prop('disabled', true);
+				// enable minify preload
+				$('#wp_optimize_run_minify_preload').prop('disabled', false);
+				$('#minify-preload').hide();
 			}
 
 			if (response.result) {

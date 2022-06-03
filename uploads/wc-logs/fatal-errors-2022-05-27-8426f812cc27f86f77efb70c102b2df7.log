@@ -1,0 +1,25 @@
+2022-05-27T10:15:27+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on bool in /home/nicedesi/panachedancefitness.com/wp-content/themes/wwcs/archive-product.php:112
+Stack trace:
+#0 /home/nicedesi/panachedancefitness.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panachedancefitness.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panachedancefitness.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panachedancefitness.com/wp-content/themes/wwcs/archive-product.php on line 112
+
+2022-05-27T10:22:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_products(), 0 passed in /home/nicedesi/panachedancefitness.com/wp-content/themes/wwcs/archive-product.php on line 35 and exactly 1 expected in /home/nicedesi/panachedancefitness.com/wp-content/plugins/woocommerce/includes/wc-product-functions.php:31
+Stack trace:
+#0 /home/nicedesi/panachedancefitness.com/wp-content/themes/wwcs/archive-product.php(35): wc_get_products()
+#1 /home/nicedesi/panachedancefitness.com/wp-includes/template-loader.php(106): include('/home/nicedesi/...')
+#2 /home/nicedesi/panachedancefitness.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#3 /home/nicedesi/panachedancefitness.com/index.php(17): require('/home/nicedesi/...')
+#4 {main}
+  thrown in /home/nicedesi/panachedancefitness.com/wp-content/plugins/woocommerce/includes/wc-product-functions.php on line 31
+
+2022-05-27T10:30:43+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on bool in /home/nicedesi/panachedancefitness.com/wp-content/themes/wwcs/archive-product.php:100
+Stack trace:
+#0 /home/nicedesi/panachedancefitness.com/wp-includes/template-loader.php(106): include()
+#1 /home/nicedesi/panachedancefitness.com/wp-blog-header.php(19): require_once('/home/nicedesi/...')
+#2 /home/nicedesi/panachedancefitness.com/index.php(17): require('/home/nicedesi/...')
+#3 {main}
+  thrown in /home/nicedesi/panachedancefitness.com/wp-content/themes/wwcs/archive-product.php on line 100
+

@@ -2,14 +2,37 @@
 # This file is distributed under the same license as the Plugins - Query Monitor - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-27 13:59:43+0000\n"
+"PO-Revision-Date: 2022-04-15 16:39:33+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"X-Generator: GlotPress/3.0.0\n"
 "Language: en_GB\n"
 "Project-Id-Version: Plugins - Query Monitor - Stable (latest release)\n"
+
+#: dispatchers/Html.php:563
+msgctxt "colour scheme"
+msgid "Dark"
+msgstr "Dark"
+
+#: dispatchers/Html.php:562
+msgctxt "colour scheme"
+msgid "Light"
+msgstr "Light"
+
+#: dispatchers/Html.php:561
+msgctxt "colour scheme"
+msgid "Auto"
+msgstr "Auto"
+
+#: dispatchers/Html.php:558
+msgid "Your browser color scheme is respected by default. You can override it here."
+msgstr "Your browser colour scheme is respected by default. You can override it here."
+
+#: dispatchers/Html.php:556
+msgid "Appearance"
+msgstr "Appearance"
 
 #. translators: %s: Memory usage in megabytes with a decimal fraction. Note the
 #. space between value and unit.
@@ -53,10 +76,6 @@ msgstr "%1$s bytes (%2$s MB)"
 
 #. translators: %s: A time in seconds with a decimal fraction. No space between
 #. value and unit.
-#. translators: %s: A time in seconds with a decimal fraction. No space between
-#. value and unit.
-#. translators: %s: A time in seconds with a decimal fraction. No space between
-#. value and unit.
 #: output/html/overview.php:95 output/html/overview.php:191
 #: output/html/overview.php:231
 msgctxt "Time in seconds"
@@ -72,8 +91,6 @@ msgstr "All (%d)"
 msgid "Architecture"
 msgstr "Architecture"
 
-#. translators: %s: Number of database queries. Note the space between value
-#. and unit.
 #. translators: %s: Number of database queries. Note the space between value
 #. and unit.
 #: output/html/db_queries.php:528 output/html/db_queries.php:543
@@ -103,20 +120,20 @@ msgstr "No JavaScript files were enqueued."
 msgid "Non-WordPress Core"
 msgstr "Non-WordPress core"
 
-#: dispatchers/Html.php:603
+#: dispatchers/Html.php:604
 msgid "Allow the wp-content/db.php file symlink to be put into place during activation. Set to false to prevent the symlink creation."
 msgstr "Allow the wp-content/db.php file symlink to be put into place during activation. Set to false to prevent the symlink creation."
 
 #. translators: %s: Number of hooks
-#: dispatchers/Html.php:385
+#: dispatchers/Html.php:379
 msgid "Hooks in Use (%s)"
 msgstr "Hooks in use (%s)"
 
-#: dispatchers/Html.php:293
+#: dispatchers/Html.php:287
 msgid "Data collection ceased"
 msgstr "Data collection ceased"
 
-#: classes/Util.php:250 output/Html.php:319 output/html/hooks.php:75
+#: classes/Util.php:254 output/Html.php:319 output/html/hooks.php:75
 msgid "WordPress Core"
 msgstr "WordPress core"
 
@@ -131,13 +148,13 @@ msgstr "Context"
 
 #. translators: 1: Percentage of memory limit used, 2: Memory limit in
 #. megabytes
-#: output/html/overview.php:172
+#: output/html/overview.php:148
 msgid "%1$s%% of %2$s MB WordPress limit"
 msgstr "%1$s%% of %2$s MB WordPress limit"
 
 #. translators: 1: Percentage of memory limit used, 2: Memory limit in
 #. megabytes
-#: output/html/overview.php:148
+#: output/html/overview.php:163
 msgid "%1$s%% of %2$s MB server limit"
 msgstr "%1$s%% of %2$s MB server limit"
 
@@ -162,7 +179,7 @@ msgid "Extended query information such as the component and affected rows is not
 msgstr "Extended query information, such as the component and affected rows is not available. A conflicting %s file is present."
 
 #. translators: %s: Dependency name
-#: classes/Util.php:186
+#: classes/Util.php:190
 msgid "Dependency: %s"
 msgstr "Dependency: %s"
 
@@ -175,11 +192,11 @@ msgstr "No data logged. <a href=\"%s\">Read about logging variables in Query Mon
 msgid "Environment Type"
 msgstr "Environment Type"
 
-#: dispatchers/Html.php:591
+#: dispatchers/Html.php:592
 msgid "Hide Query Monitor itself from various panels. Set to false if you want to see how Query Monitor hooks into WordPress."
 msgstr "Hide Query Monitor itself from various panels. Set to false if you want to see how Query Monitor hooks into WordPress."
 
-#: dispatchers/Html.php:264
+#: dispatchers/Html.php:258
 msgid "PHP Fatal Error"
 msgstr "PHP Fatal Error"
 
@@ -193,19 +210,19 @@ msgstr "Asset files for Query Monitor need to be built. Run %1$s from the %2$s d
 msgid "This message was triggered by %s."
 msgstr "This message was triggered by %s."
 
-#: dispatchers/Html.php:560
+#: dispatchers/Html.php:552
 msgid "Saved! Reload to apply changes."
 msgstr "Saved! Reload to apply changes."
 
-#: dispatchers/Html.php:558
+#: dispatchers/Html.php:550
 msgid "Set editor cookie"
 msgstr "Set editor cookie"
 
-#: dispatchers/Html.php:537
+#: dispatchers/Html.php:529
 msgid "You can set your editor here, so that when you click on stack trace links the file opens in your editor."
 msgstr "You can set your editor here, so that when you click on stack trace links the file opens in your editor."
 
-#: dispatchers/Html.php:535
+#: dispatchers/Html.php:527
 msgid "Editor"
 msgstr "Editor"
 
@@ -279,13 +296,9 @@ msgid "Request Data"
 msgstr "Request Data"
 
 #. translators: %s: Default value for a PHP constant
-#: dispatchers/Html.php:633
+#: dispatchers/Html.php:634
 msgid "Default value: %s"
 msgstr "Default value: %s"
-
-#: dispatchers/Html.php:567
-msgid "Enable dark mode for Query Monitor's interface."
-msgstr "Enable dark mode for Query Monitor's interface."
 
 #: output/html/theme.php:129
 msgid "Not Loaded"
@@ -368,7 +381,7 @@ msgstr "Render Time"
 msgid "Twig Template Files"
 msgstr "Twig Template Files"
 
-#: dispatchers/Html.php:455
+#: dispatchers/Html.php:449
 msgid "Toggle panel position"
 msgstr "Toggle panel position"
 
@@ -395,7 +408,7 @@ msgid "Add-ons"
 msgstr "Add-ons"
 
 #. translators: 1: Name of the PHP directive, 2: Value of the PHP directive
-#: output/html/overview.php:157
+#: output/html/overview.php:172
 msgid "No memory limit. The %1$s PHP configuration directive is set to %2$s."
 msgstr "No memory limit. The %1$s PHP configuration directive is set to %2$s."
 
@@ -525,56 +538,56 @@ msgid "Sequence"
 msgstr "Sequence"
 
 #. translators: %s: Current value for a PHP constant
-#: dispatchers/Html.php:647
+#: dispatchers/Html.php:648
 msgid "Current value: %s"
 msgstr "Current value: %s"
 
 #. translators: %s: Name of the config file
-#: dispatchers/Html.php:613
+#: dispatchers/Html.php:614
 msgid "The following PHP constants can be defined in your %s file in order to control the behavior of Query Monitor:"
 msgstr "The following PHP constants can be defined in your %s file in order to control the behavior of Query Monitor:"
 
-#: dispatchers/Html.php:609
+#: dispatchers/Html.php:610
 msgid "Configuration"
 msgstr "Configuration"
 
-#: dispatchers/Html.php:599
+#: dispatchers/Html.php:600
 msgid "In the Hooks & Actions panel, show every hook that has an action or filter attached (instead of every action hook that fired during the request)."
 msgstr "In the Hooks & Actions panel, show every hook that has an action or filter attached (instead of every action hook that fired during the request)."
 
-#: dispatchers/Html.php:595
+#: dispatchers/Html.php:596
 msgid "Don't specify jQuery as a dependency of Query Monitor. If jQuery isn't enqueued then Query Monitor will still operate, but with some reduced functionality."
 msgstr "Don't specify jQuery as a dependency of Query Monitor. If jQuery isn't enqueued then Query Monitor will still operate, but with some reduced functionality."
 
-#: dispatchers/Html.php:587
+#: dispatchers/Html.php:588
 msgid "Hide WordPress core on the Hooks & Actions panel."
 msgstr "Hide WordPress core on the Hooks & Actions panel."
 
-#: dispatchers/Html.php:583
+#: dispatchers/Html.php:584
 msgid "Enable the Capability Checks panel."
 msgstr "Enable the Capability Checks panel."
 
-#: dispatchers/Html.php:579
+#: dispatchers/Html.php:580
 msgid "Disable the handling of PHP errors."
 msgstr "Disable the handling of PHP errors."
 
-#: dispatchers/Html.php:575
+#: dispatchers/Html.php:576
 msgid "Disable Query Monitor entirely."
 msgstr "Disable Query Monitor entirely."
 
-#: dispatchers/Html.php:571
+#: dispatchers/Html.php:572
 msgid "If an individual database query takes longer than this time to execute, it's considered \"slow\" and triggers a warning."
 msgstr "If an individual database query takes longer than this time to execute, it's considered \"slow\" and triggers a warning."
 
-#: dispatchers/Html.php:527
+#: dispatchers/Html.php:521
 msgid "Authentication cookie is set"
 msgstr "Authentication cookie is set"
 
-#: dispatchers/Html.php:523
+#: dispatchers/Html.php:517
 msgid "You can set an authentication cookie which allows you to view Query Monitor output when you&rsquo;re not logged in, or when you&rsquo;re logged in as a different user."
 msgstr "You can set an authentication cookie which allows you to view Query Monitor output when you&rsquo;re not logged in, or when you&rsquo;re logged in as a different user."
 
-#: dispatchers/Html.php:461
+#: dispatchers/Html.php:455
 msgid "Query Monitor Menu"
 msgstr "Query Monitor Menu"
 
@@ -587,15 +600,14 @@ msgid "Logger"
 msgstr "Logger"
 
 #. Description of the plugin
-msgid "The Developer Tools Panel for WordPress."
-msgstr "The Developer Tools Panel for WordPress."
+msgid "The developer tools panel for WordPress."
+msgstr "The developer tools panel for WordPress."
 
 #. translators: %s: Number of function timing results that are available
 #: output/html/timing.php:198
 msgid "Timings (%s)"
 msgstr "Timings (%s)"
 
-#. translators: %s: Approximate memory used in kilobytes
 #. translators: %s: Approximate memory used in kilobytes
 #: output/html/timing.php:98 output/html/timing.php:130
 msgid "~%s kB"
@@ -769,12 +781,12 @@ msgstr "Class:"
 msgid "List Table"
 msgstr "List Table"
 
-#: dispatchers/Html.php:456
+#: dispatchers/Html.php:450
 msgid "Close Panel"
 msgstr "Close Panel"
 
-#: classes/QueryMonitor.php:56 dispatchers/Html.php:448
-#: dispatchers/Html.php:454 dispatchers/Html.php:517
+#: classes/QueryMonitor.php:56 dispatchers/Html.php:442
+#: dispatchers/Html.php:448 dispatchers/Html.php:511
 msgid "Settings"
 msgstr "Settings"
 
@@ -816,13 +828,12 @@ msgid "Warning (Silenced)"
 msgstr "Warning (Silenced)"
 
 #. translators: A non-blocking HTTP API request
-#. translators: A non-blocking HTTP API request
 #: output/html/http.php:55 output/html/http.php:94
 msgid "Non-blocking"
 msgstr "Non-blocking"
 
 #. translators: %s: Plugin name
-#: classes/Util.php:221
+#: classes/Util.php:225
 msgid "VIP Client MU Plugin: %s"
 msgstr "VIP Client MU Plugin: %s"
 
@@ -1046,7 +1057,7 @@ msgid "Certificate verification disabled (%s)"
 msgstr "Certificate verification disabled (%s)"
 
 #. translators: %s: Number of duplicate database queries
-#: output/html/db_dupes.php:143
+#: output/html/db_dupes.php:148
 msgid "Duplicate Queries (%s)"
 msgstr "Duplicate Queries (%s)"
 
@@ -1074,7 +1085,7 @@ msgid "Duplicate Queries"
 msgstr "Duplicate Queries"
 
 #. translators: %s: Plugin name
-#: classes/Util.php:201
+#: classes/Util.php:205
 msgid "MU Plugin: %s"
 msgstr "MU Plugin: %s"
 
@@ -1132,7 +1143,7 @@ msgstr "Languages"
 msgid "Debug Bar: %s"
 msgstr "Debug Bar: %s"
 
-#: classes/Util.php:388
+#: classes/Util.php:392
 msgid "Unable to determine source of lambda function"
 msgstr "Unable to determine source of lambda function"
 
@@ -1222,7 +1233,6 @@ msgid "Page Generation Time"
 msgstr "Page Generation Time"
 
 #. translators: 1: Percentage of time limit used, 2: Time limit in seconds
-#. translators: 1: Percentage of time limit used, 2: Time limit in seconds
 #: output/headers/overview.php:32 output/html/overview.php:108
 msgid "%1$s%% of %2$ss limit"
 msgstr "%1$s%% of %2$ss limit"
@@ -1241,7 +1251,6 @@ msgstr "Timeout"
 msgid "Response"
 msgstr "Response"
 
-#. translators: %s: Error message text
 #. translators: %s: Error message text
 #: output/html/block_editor.php:250 output/html/hooks.php:181
 msgid "Error: %s"
@@ -1382,26 +1391,26 @@ msgctxt "\"All\" option for filters"
 msgid "All"
 msgstr "All"
 
-#: dispatchers/Html.php:512
+#: dispatchers/Html.php:506
 msgid "Clear authentication cookie"
 msgstr "Clear authentication cookie"
 
-#: dispatchers/Html.php:513
+#: dispatchers/Html.php:507
 msgid "Set authentication cookie"
 msgstr "Set authentication cookie"
 
-#: dispatchers/Html.php:521
+#: dispatchers/Html.php:515
 msgid "Authentication"
 msgstr "Authentication"
 
-#: dispatchers/Html.php:257
+#: dispatchers/Html.php:251
 msgid "PHP Errors in Ajax Response"
 msgstr "PHP Errors in Ajax Response"
 
 #. Plugin Name of the plugin
 #: classes/QueryMonitor.php:187 classes/QueryMonitor.php:220
 #: collectors/php_errors.php:383 dispatchers/Html.php:141
-#: dispatchers/Html.php:418 dispatchers/Html.php:764 dispatchers/WP_Die.php:142
+#: dispatchers/Html.php:412 dispatchers/Html.php:765 dispatchers/WP_Die.php:142
 msgid "Query Monitor"
 msgstr "Query Monitor"
 
@@ -1437,7 +1446,7 @@ msgstr "Request"
 msgid "PHP Errors"
 msgstr "PHP Errors"
 
-#: dispatchers/Html.php:425 dispatchers/Html.php:467
+#: dispatchers/Html.php:419 dispatchers/Html.php:461
 #: output/html/overview.php:30
 msgid "Overview"
 msgstr "Overview"
@@ -1477,17 +1486,17 @@ msgid "Admin Screen"
 msgstr "Admin Screen"
 
 #. translators: 1: Line number, 2: File name
-#: classes/Util.php:383
+#: classes/Util.php:387
 msgid "Anonymous function on line %1$d of %2$s"
 msgstr "Anonymous function on line %1$d of %2$s"
 
 #. translators: 1: Line number, 2: File name
-#: classes/Util.php:359
+#: classes/Util.php:363
 msgid "Closure on line %1$d of %2$s"
 msgstr "Closure on line %1$d of %2$s"
 
-#: classes/Backtrace.php:212 classes/Util.php:254
-#: collectors/environment.php:311 output/headers/php_errors.php:45
+#: classes/Backtrace.php:212 classes/Util.php:258
+#: collectors/environment.php:311 output/headers/php_errors.php:49
 #: output/html/db_queries.php:372 output/html/db_queries.php:468
 #: output/html/environment.php:84 output/html/environment.php:206
 #: output/html/environment.php:311 output/html/overview.php:131
@@ -1496,24 +1505,24 @@ msgstr "Closure on line %1$d of %2$s"
 msgid "Unknown"
 msgstr "Unknown"
 
-#: classes/Util.php:237 output/html/theme.php:51
+#: classes/Util.php:241 output/html/theme.php:51
 msgid "Parent Theme"
 msgstr "Parent Theme"
 
-#: classes/Util.php:232 output/html/theme.php:31 output/html/theme.php:47
+#: classes/Util.php:236 output/html/theme.php:31 output/html/theme.php:47
 msgid "Theme"
 msgstr "Theme"
 
-#: classes/Util.php:230
+#: classes/Util.php:234
 msgid "Child Theme"
 msgstr "Child Theme"
 
 #. translators: %s: Plugin name
-#: classes/Util.php:224
+#: classes/Util.php:228
 msgid "VIP Plugin: %s"
 msgstr "VIP Plugin: %s"
 
 #. translators: %s: Plugin name
-#: classes/Util.php:204
+#: classes/Util.php:208
 msgid "Plugin: %s"
 msgstr "Plugin: %s"

@@ -22,7 +22,7 @@ $profile_data = wp_list_pluck($profile_query, 'ID');
 $profile_id = $profile_data["post"];
 
 if ($post->post_author == $current_user->ID) {
-    if($profile_id) {?>
+    //if($profile_id) {?>
     <div class="container admincont text-center">
         <div class="btn-group">
             <button type="button" class="btn btn-lg"><a href="/edit-profile/?id=<?php echo $profile_id ?>" role="button">Edit Profile</a></button>
@@ -32,14 +32,14 @@ if ($post->post_author == $current_user->ID) {
     </div>
 
 <?php
+   // }
+   // else {
+     //   echo '<h4>Please add your profile data. Your potential customers are unable to contact you. <a href="add-profile" class="btn">Add now</a></h4>';
+   // }
     }
-    else {
-        echo '<h4>Please add your profile data. Your potential customers are unable to contact you. <a href="add-profile" class="btn">Add now</a></h4>';
-    }
-    }
-if($profile_id == null) {
-    echo '<div class="container" style="margin-top: 50px!important;background-color: #fff;padding: 50px!important;"><h2 style="color:#000000!important;font-size:22px;font-weight: 700;">Sorry there is no profile data for this Dance Captain &nbsp;<i style="font-size:26px;" class="far fa-frown"></i></h2></div>';
-}
+//if($profile_id == null) {
+   // echo '<div class="container" style="margin-top: 50px!important;background-color: #fff;padding: 50px!important;"><h2 style="color:#000000!important;font-size:22px;font-weight: 700;">Sorry there is no profile data for this Dance Captain &nbsp;<i style="font-size:26px;" class="far fa-frown"></i></h2></div>';
+//}
          if(have_posts()) :
 ?>
              <div class="container-fluid">

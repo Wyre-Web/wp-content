@@ -1,40 +1,28 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package wwcs
+/*
+ * Template Name: DC Content
+ * Template Post Type: post, rehearsals
  */
 
 get_header();
+$current_user = wp_get_current_user(); // grab user info  from the database
+
+if ( is_user_logged_in() && current_user_can( 'dance_captain' )  || current_user_can('administrator')) :
+
+
 ?>
+<div class="container jumbotron text-center">
+	<h1>
+	    	<?php 
+	    	the_title();?></h1>
+	    	<?php while ( have_posts() ) : the_post(); 
+		
+				
+				  the_content(); 
+endwhile;?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'archive-rehearsals.php', true );
-
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'wwcs' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'wwcs' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
+</div>
 
 <?php
-get_sidebar();
+endif;
 get_footer();

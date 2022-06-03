@@ -38,7 +38,8 @@ if ( ! wc_ship_to_billing_address_only() && wc_shipping_enabled() ) {
 	);
 }
 
-
+$oldcol = 1;
+$col    = 1;
 ?>
 
 <p>
